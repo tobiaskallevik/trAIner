@@ -1,0 +1,45 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+#sideBarLogo {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/*@keyframes jiggle {
+  0% { transform: rotate(-6deg); }
+  25% { transform: rotate(6deg); }
+  50% { transform: rotate(-6deg); }
+  75% { transform: rotate(6deg); }
+  100% { transform: rotate(-6deg); }
+}
+
+#navNotifications {
+  transition: transform 0.5s ease-in-out;
+  transform-origin: top center;
+}
+
+#navNotifications:hover {
+  animation: jiggle 1s ease-in-out;
+}*/
+
+.drop-up-link svg {
+  margin-right: 10px;
+}
+

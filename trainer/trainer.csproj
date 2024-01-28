@@ -1,0 +1,206 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-trainer-2399337F-A1F8-4614-93A4-FF9C471E245F</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="7.0.12" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="7.0.11" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.12" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Twitter" Version="7.0.12" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.10" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.10" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+          <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.10" />
+        <PackageReference Include="Npgsql" Version="7.0.4" />
+        <PackageReference Include="OpenAI" Version="1.7.2" />
+        <PackageReference Include="Pluralize.NET" Version="1.0.2" />
+        <PackageReference Include="SendGrid" Version="9.28.1" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\45-Degree-Incline-Row.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Arnold-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Assault-Air-Runner.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Assisted-Pull-up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Bench-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Bent-Over-Row.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Deadlift.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\barbell-rack-pull.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Reverse-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Romanian-Deadlift.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Seated-Calf-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Shoulder-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Shrug.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\BARBELL-SQUAT.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Standing-Military-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Sumo-Deadlift.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Barbell-Triceps-Extension.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\barbell-uprightrow.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Behind-The-Back-Barbell-Shrug-Reverse-Barbell-Shrug.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Bent-Over-Dumbbell-Row.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Bicycle-Crunch.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Bike.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\burpees.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Cable-Crossover.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\cable-curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Cable-Lateral-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Cable-One-Arm-Lat-Pulldown.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Cable-One-Arm-Overhead-Triceps-Extension.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Cable-Rope-Overhead-Triceps-Extension.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Cable-Straight-Arm-Pulldown.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Calf-Raise-with-Resistance-Band.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Chin-Up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Clap-Push-Up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Close-Grip-Bench-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\close-grip-cable-row.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Concentration-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\converter.py" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Cross-Body-Mountain-Climber.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Crunch.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\dead-hang.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Decline-Barbell-Bench-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Decline-Chest-Press-Machine.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Decline-Push-Up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Diamond-Push-up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Donkey-Calf-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Bulgarian-Split-Squat.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Calf-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Chest-Supported-Lateral-Raises.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Fly.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Goblet-Squat.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Kickback.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Lateral-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\dumbbell-lunges.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Preacher-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Press-1.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Push-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\dumbbell-reverse-curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Reverse-Fly.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Row.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Shoulder-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Shrug.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Skull-Crusher.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbbell-Wrist-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Dumbeel-Step-Up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Elliptical-Machine.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\exercises.json" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Face-Pull.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Farmers-walk_Cardio.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Front-Pulldown.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\front-squat.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Hammer-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Hand-Gripper.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\handstand-push-up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Hanging-Leg-Raises.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Incline-Barbell-Bench-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Incline-Chest-Fly-Machine.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Incline-dumbbell-Fly.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Incline-Dumbbell-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Incline-Dumbbell-Y-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Incline-Push-Up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Jump-Rope.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Jumping-jack.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Kneeling-Cable-Crunch.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Kneeling-Neck-Stretch.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Kneeling-Push-up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Lat-Pulldown.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Leg-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\LEG-EXTENSION.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Leg-Press-Calf-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Leg-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Lever-Chest-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Lever-Incline-Chest-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Lever-Preacher-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Lever-Seated-Calf-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Lever-Shoulder-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Lever-Tricep-Extension.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Lying-Cable-Fly.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Lying-Leg-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Lying-Weighted-Lateral-Neck-Flexion.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Oblique-Floor-Crunches.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\One-Arm-Cable-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\One-arm-triceps-pushdown.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\overhead-cable-curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\parallel-bar-dip.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Pec-Deck-Fly.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Pistol-Squat.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\plank.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Pull-up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Pushdown.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Rear-Delt-Machine-Flys.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Reverse-Grip-Barbell-Row.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Reverse-Wrist-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Riding-Outdoor-Bicycle.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\rope-bicep-curls.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Rowing-Machine.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Run.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Russian-Twist.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Scapula-Pull-up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Seated-Cable-Row.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Seated-Dumbbell-Triceps-Extension.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Seated-Incline-Dumbbell-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Seated-Leg-Curl.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Seated-Rear-Lateral-Dumbbell-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Seated-Row-Machine.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\shadow-boxing-workout.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Side-Plank-1-360x360.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Side-Push-Neck-Stretch.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Single-Leg-Calf-Raises.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Sit-ups.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Sled-Hack-Squat.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Smith-Machine-Bench-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Smith-Machine-Bent-Over-Row.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Smith-Machine-Incline-Bench-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Smith-Machine-Shoulder-Press.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\sprint.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Standing-Barbell-Calf-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Standing-Calf-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Swimming.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\T-Bar-Row.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\The-Box-Jump.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Treadmill-.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Triceps-Dips.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Two-Arm-Dumbbell-Front-Raise.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Walk-Wave-Machine.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Walking-on-Stepmill.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Walking.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Weighted-Lying-Neck-Extension.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Weighted-Lying-Neck-Flexion.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Weighted-Pull-up.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\wrist-roller.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\gifs\gifs\Z-Bar-Preacher-Curl.gif" />
+      <_ContentIncludedByDefault Remove="PossiblyRedundant\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="PossiblyRedundant\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="PossiblyRedundant\_ExerciseInWorkoutPartial.cshtml" />
+    </ItemGroup>
+    
+<!--
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Account\Index.cshtml" />
+    </ItemGroup>
+-->
+
+    
+
+
+
+
+</Project>

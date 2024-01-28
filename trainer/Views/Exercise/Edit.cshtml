@@ -1,0 +1,45 @@
+@model trainer.Models.Exercise
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_Layout";
+}
+
+<div class="row row-fill-height">
+    <div class="col-lg-4 backg-columns exerciseList exerciseListInfo m-auto p-3">
+        <div class="row justify-content-around">
+            <h4 class="col-6">Edit exercise</h4>
+            <a asp-action="Index" class="col-1 m-auto">
+                <button class="btn btn-danger">Back</button>
+            </a>
+        </div>
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id"/>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control"/>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MuscleGroup" class="control-label"></label>
+                <select asp-for="MuscleGroup" asp-items="ViewBag.MuscleGroups" class="form-control"></select>
+                <span asp-validation-for="MuscleGroup" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="RequiresGym"/> @Html.DisplayNameFor(model => model.RequiresGym)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="GifUrl" class="control-label"></label>
+                <input asp-for="GifUrl" class="form-control"/>
+                <span asp-validation-for="GifUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Save" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+

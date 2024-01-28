@@ -1,0 +1,119 @@
+﻿@using NuGet.Protocol
+@model trainer.ViewModels.FriendsViewModel
+
+@{
+    ViewBag.Title = "Manage Workouts";
+    Layout = "_Layout";
+}
+
+@*Displays a list of the users workouts*@
+
+
+
+<div class="col-12">
+    <div class="col-12 m-auto d-flex align-items-center justify-content-center mt-1 mt-sm-3 mt-md-3">
+        @*Back button*@
+        <div class="mt-3 mt-md-0">
+            <form asp-controller="Trainer" asp-action="Index">
+                <button type="submit" class="" style="background-color: transparent; border: none; ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="white" class="bi bi-box-arrow-left" viewBox="0 2 16 16">
+                        <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                        <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+         
+        @*Allows users to add a new friend*@
+        <form asp-action="SendRequest" asp-controller="Social" method="post" class="d-flex gap-1 col-11 col-md-6 mt-4 mt-xs-0 mt-sm-0 mt-md-0">
+            <input type="text" name="requestedUserEmail" class="form-control" placeholder="New Friend With Email" required style="max-height: 2.4rem;"/>
+            <button type="submit" class="btn btn-primary" style="max-width: 5rem;">Add</button>
+        </form>
+         
+    </div>
+    
+    <div class="d-flex gap-2 justify-content-center mt-3 mt-md-0">
+        <button id="friendsButton" type="button" class="btn socialDisplayChoice">My Friends</button>
+        <button id="requestsButton" type="button" class="btn d-flex position-relative justify-content-center socialDisplayChoice">
+            <div>Requests</div>
+            <div class="position-absolute requestCount">@Model.Requests.Count</div>
+        </button>
+    </div>
+    
+    @*List over friends/requests*@
+    <div class="col-12 col-md-6 m-auto align-items-center justify-content-center">
+        @*Displays the users friends*@
+        <div id="friendsList">
+            @{ var friends = Model.Friends; }
+            
+            @if (friends.Count == 0)
+            {
+                <div class="d-flex justify-content-center friendsListItems">
+                    <h3>You Have No Friends</h3>
+                </div>
+            }
+            else
+            {
+                foreach (var friend in friends)
+                {
+                    <div class="friendsListItems d-flex justify-content-between">
+                        <div class="col-10" style="word-wrap: break-word;"><h3>@friend.UserName.Split('@')[0]</h3></div>
+
+                        <div>
+                            <form method="post" asp-action="Delete" asp-controller="Social" asp-route-id="@friend.Id">
+                                <button class="deleteFriend" type="submit" style="background: none; border: none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="#ff453a" class="bi bi-trash" viewBox="0 0 16 16">
+                                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
+                                        <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                }
+            }
+           
+        </div>
+
+        @*Displays the users friend request*@
+        <div id="requestsList">
+            @*Gets a list of the requests*@
+            @{ var requests = Model.Requests; }
+    
+            @if (requests.Count == 0)
+            {
+                <div class="d-flex justify-content-center requestListItems">
+                    <h3>No Requests</h3>
+                </div>
+            }
+            else
+            {
+                foreach (var request in requests)
+                {
+                    <div class="requestListItems d-flex justify-content-between">
+                        <div><h3>@request.UserName.Split('@')[0]</h3></div>
+
+                        <div class="d-flex">
+                            <form method="post" asp-action="Delete" asp-controller="Social" asp-route-id="@request.Id">
+                                <button class="deleteFriend" type="submit" style="background: none; border: none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="#ff453a" class="bi bi-trash" viewBox="0 0 16 16">
+                                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
+                                        <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
+                                    </svg>
+                                </button>
+                            </form>
+                            <form method="post" asp-action="Accept" asp-controller="Social" asp-route-id="@request.Id">
+                                <button type="submit" style="background: none; border: none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="#30d158" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                }
+            }
+            
+        </div>
+    </div>
+</div>

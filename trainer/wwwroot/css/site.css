@@ -1,0 +1,222 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #1C1C1E;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  height: 1px;
+}
+
+h4{
+  color: white;
+}
+
+.btn-primary{
+  background-color: #0A84FF;
+}
+
+.backg-gray {
+    background-color: #3a3a3c;
+}
+
+.backg-gray:hover {
+  background-color: #2c2c2e;
+}
+
+.row-fill-height {
+  height: 100vh;
+}
+
+.alert-warning {
+  background-color: red;
+  color: black;
+  border: none;
+}
+
+/*Makes text non selectable*/
+*{
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}
+
+/*Modal for loading animation*/
+.loadingModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  padding-top: 35vh;
+  padding-left: 10rem;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.loadingModal span {
+  color: white;
+  position: relative;
+  top: 0.63em;
+  display: inline-block;
+  text-transform: uppercase;
+  opacity: 0;
+  transform: rotateX(-90deg);
+}
+
+.bi-box-arrow-left{
+  margin-top: 0.8rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  /*Options for text scaling*/
+  .scaleDownSoft  {
+    font-size: 1.8rem;
+    
+  }
+
+  .scaleDownHard {
+    font-size: 1.3rem;
+  }
+
+  .scaleDownHarder {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .scaleDownHardest {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .bi-box-arrow-left{
+    height: 2.3rem;
+    width: 2.3rem;
+  }
+  
+  .loadingModal {
+    padding-left: 0;
+  }
+}
+
+/* Site Loading animation*/
+/*Originally sourced from https://www.sliderrevolution.com/resources/css-loaders/*/
+/*Modified to fit the website*/
+.let1 {
+  animation: drop 2.2s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.let2 {
+  animation: drop 2.2s ease-in-out infinite;
+  animation-delay: 1.3s;
+}
+
+.let3 {
+  animation: drop 2.2s ease-in-out infinite;
+  animation-delay: 1.4s;
+}
+
+.let4 {
+  animation: drop 2.2s ease-in-out infinite;
+  animation-delay: 1.5s;
+
+}
+
+.let5 {
+  animation: drop 2.2s ease-in-out infinite;
+  animation-delay: 1.6s;
+}
+
+.let6 {
+  animation: drop 2.2s ease-in-out infinite;
+  animation-delay: 1.7s;
+}
+
+.let7 {
+  animation: drop 2.2s ease-in-out infinite;
+  animation-delay: 1.8s;
+}
+
+@keyframes drop {
+  10% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 1;
+    top: 3.78em;
+    transform: rotateX(-360deg);
+  }
+  80% {
+    opacity: 1;
+    top: 3.78em;
+    transform: rotateX(-360deg);
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    top: 6.94em
+  }
+}
+
+.form-control{
+  min-width: 2rem;
+}
+
+
+
+.bannerPart {
+  max-width: 42.5vw;
+}
+@media only screen and (max-width: 768px) {
+  .bannerPart {
+    max-width: 100%;
+  }
+}
+
+#chartContainer {
+  height: 80%;
+  background-color: #2c2c2e;
+}
+
+#myChart {
+  width: 100%; 
+  height: 85%;
+}
+
+@media only screen and (max-width: 768px) {
+  #myChart {
+    height: 90%;
+  }
+}
+

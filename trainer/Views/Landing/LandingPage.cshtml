@@ -1,0 +1,50 @@
+@{
+    ViewBag.Title = "Landing page";
+    Layout = "_Layout";
+}
+
+
+<div class="row justify-content-center m-auto pt-4">
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="logoLine"></div>
+        <div><img class="landingPageLogo" src="img/logo.png"/></div>
+        <div class="logoLine"></div>
+    </div>
+
+    <div>
+        <h1 class="text-center scaleDownHard welcome-heading">Welcome to Trainer</h1>
+        <h4 class="text-center scaleDownHarder welcome-heading">The Ultimate Fitness Destination</h4>
+    </div>
+</div>
+
+<div class="text-center">
+    <a asp-area="Identity" asp-page="/Account/Login" id="loginlandig" class="btn btn-primary">LOGIN</a>
+    <a asp-area="Identity" asp-page="/Account/Register" id="registerlanding" class="btn btn-secondary">REGISTER</a>
+</div>
+
+<div class="d-flex flex-row flex-wrap justify-content-center flex-lg-row landingPageContainer">
+    <div class="d-flex flex-column landingPageBox">
+        <h3>Explore And Create</h3>
+        <p>With our powerful creation features you can create a workout and routine that fits your needs. Don't know where to start? Use our custom routine templates to start your journey!</p>
+    </div>
+
+    <div class="d-flex flex-column landingPageBox">
+        <h3>Share And Generate</h3>
+        <p>Generate custom made workout based on your needs with our powerful AI personal trainer. Still want that human touch? Share and receive workouts and routines with your friends.</p>
+    </div>
+
+    <div class="d-flex flex-column landingPageBox">
+        <h3>Log And Track</h3>
+        <p>Log your workouts to keep track of your progress. Our statistics feature allows you to keep track of your progress over time, helping you visualize your increasing fitness</p>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

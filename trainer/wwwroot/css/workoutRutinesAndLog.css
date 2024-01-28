@@ -1,0 +1,190 @@
+﻿.workoutList, .routineList, .logList{
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.workoutListItem, .routineListItem, 
+.logListItem, .chooseWorkoutToLog,
+.logWorkoutItem{
+    background-color: #3a3a3c;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding-top: 1rem;
+    box-shadow: black 0 0.1rem 0.2rem 0;
+}
+
+.workoutAddItem {
+    background-color: #3a3a3c;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: black 0 0.1rem 0.2rem 0;
+}
+
+.exerciseList {
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.exerciseListInfo {
+    background-color: #3a3a3c;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    box-shadow: black 0 0.1rem 0.2rem 0;
+}
+
+.workoutListItem a, .logListItem a{
+    text-decoration: none;
+}
+
+.workoutList h3, .workoutList h1, .exerciseList h1,
+.routineList h1, .routineList h3, .exerciseList h3,
+.logList h1, .logList h3{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.links {
+    margin-left: auto;
+}
+
+.exerciseList p, .routineList p, 
+.log{
+    color: #FFFFFF;
+}
+
+
+
+/*Clickable classes*/
+.sets-down, .sets-up, .move-exercise-down, .move-exercise-up,
+.muscleGroupList:hover, .exerciseInfo:hover, .delete-from-workout, 
+.delete-from-routine, .bi-box-arrow-left, .move-workout-up, 
+.move-workout-down, .delete-logged-workout{
+    cursor: pointer;
+}
+
+.exerciseInfo{
+    margin-top: 0.2rem;
+}
+#addExerciseToWorkout {
+    padding-top: 3rem;
+}
+
+.addExerciseToWorkoutItem, .logWorkoutItem{
+    background-color: #3a3a3c;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding-top: 1rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: black 0 0.1rem 0.2rem 0;
+}
+
+#muscleGroupFilter, #filterByRoutine,
+#generatorType, #generatorGym, #generatorSkill{
+    background-color: #3a3a3c;
+    border: none;
+    color: white;
+    border-radius: 0.25rem;
+    box-shadow: black 0 0.1rem 0.2rem 0;
+    text-align: center;
+    cursor: pointer;    
+    transition: background-color 0.5s ease;
+    max-height: 3rem;
+}
+
+
+
+#muscleGroupFilter select option:hover,
+#muscleGroupFilter select option:checked,
+#filterByRoutine select option:hover,
+#filterByRoutine select option:checked,
+#generatorType select option:hover,
+#generatorType select option:checked,
+#generatorGym select option:hover,
+#generatorGym select option:checked,
+#generatorSkill select option:hover,
+#generatorSkill select option:checked{
+    
+    background-color: #0A84FF;
+    appearance: none;
+}
+
+
+
+.addWorkout:hover, .addWorkoutToRoutine:hover, .exerciseDropdownArrow:hover, .workoutDropdownArrow:hover{
+    cursor: pointer;
+    color: #0A84FF;
+}
+
+/*CSS for Modal. This is the image that is shown when info button is pressed*/
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.modal-loading {
+    margin: auto;
+    display: block;
+}
+
+.modal-content .modal-loading{
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.exerciseDropdown {
+    background-color: #3a3a3c; 
+    margin-top: -0.25rem; 
+    margin-bottom: 0.75rem; 
+    border-radius: 10px;
+    box-shadow: black 0 0.1rem 0.2rem 0;
+    padding-top: .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .viewTitle {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logWorkoutItem h1{
+        font-size: 1em;
+    }
+    .logWorkoutItem h2{
+        font-size: 0.8em;
+    }
+    .logWorkoutItem h3{
+        font-size: 1.2em;
+    }
+    .logWorkoutItem h6{
+        font-size: 0.9em;
+    }
+}

@@ -1,0 +1,83 @@
+﻿@using trainer.Controllers
+@model List<trainer.Controllers.WorkoutsController.ExerciseSet>
+
+@{
+    ViewBag.Title = "Edit Workout";
+    Layout = "_Layout";
+}
+
+
+
+<div class="col-md-6 exerciseList m-auto" id="exercisesInWorkout">
+    
+    <div class="d-flex align-items-center m-auto mb-4">
+        @*Back button*@
+        <form asp-controller="Workouts" asp-action="Manage">
+            <button type="submit" class="d-flex " style="background-color: transparent; border: none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="white" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                    <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                </svg>
+            </button>
+        </form>
+
+        <input class="form-control" id="updateWorkoutName" type="text" value="@ViewBag.Workout.Name" oninput="validateInput(this)" maxlength="15" style="min-width: 12rem;"/>
+        <button type="button" class="btn btn-primary m-1" id="saveWorkoutName" data-workout-id="@ViewBag.Workout.Id">Save</button>
+
+        @*Empty Space*@
+        <div class="col-md-1 col-1"></div>
+    </div>
+    
+    
+    @*Displays each exercise in the chosen workout*@
+    @foreach (var exercise in Model.OrderBy(i=>i.IsOrder) )
+    {
+            <div class="row align-items-center justify-content-center exerciseListItem">
+                <div class="col-md-8 col-10 d-flex justify-content-between align-items-center exerciseListInfo">
+                    
+                    <div>
+                        <h3 id="exerciseName" name="Name">@exercise.Name</h3>
+                        <label for="sets">Sets</label>
+                        <medium id="sets" name="Sets">@exercise.Sets</medium>
+
+                        @*Arrows allowing user to change sets*@
+                        <svg data-exercise-id="@exercise.ExerciseId" data-workout-id="@ViewBag.Workout.Id" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="white" class="bi bi-arrow-up-short sets-up" viewBox="0 1 16 16">
+                            <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+                        </svg>
+                        <svg data-exercise-id="@exercise.ExerciseId" data-workout-id="@ViewBag.Workout.Id" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="white" class="bi bi-arrow-down-short sets-down" viewBox="0 1 16 16">
+                            <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                        </svg>
+                    </div>
+                    
+                    @*Deletes sets*@
+                    <div>
+                        <svg data-exercise-id="@exercise.ExerciseId" data-workout-id="@ViewBag.Workout.Id" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="#ff453a" class="bi bi-trash delete-from-workout" viewBox="0 0 16 16">
+                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
+                            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                @*Arrows allowing user to change order of exercise*@
+                <div class="col-2 align-items-center">
+                    <svg data-exercise-id="@exercise.ExerciseId" data-workout-id="@ViewBag.Workout.Id" xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="white" class="bi bi-arrow-up-short move-exercise-down" viewBox="0 3 16 16">
+                        <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+                    </svg>
+                    <svg data-exercise-id="@exercise.ExerciseId" data-workout-id="@ViewBag.Workout.Id" xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="white" class="bi bi-arrow-down-short move-exercise-up" viewBox="0 3 16 16">
+                        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                </div>
+            </div>
+   
+    }
+    
+    <div class="d-grid gap-2 flex-column align-items-center justify-content-center">
+        <form asp-action="Exercises" asp-controller="Workouts" method="get" asp-route-id="@ViewBag.Workout.Id">
+            <button type="submit" class="btn btn-primary" style="width: 8.5rem; height: auto; margin-bottom: 2rem;">Add New</button>
+        </form>
+    </div>
+</div>
+
+
+
+

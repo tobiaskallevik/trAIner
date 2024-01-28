@@ -1,0 +1,56 @@
+﻿/*Styling for most account pages*/
+.accountContainer{
+    padding: 1rem;
+}
+
+.accountMenu{
+    margin-top: 2rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginAlternatives .btn{
+    margin-bottom: 0.5rem;
+}
+    
+.accountMenu .btn{
+    background-color: #0A84FF;
+}
+
+.accountMenu h1, .accountMenu p, .accountMenu h3{
+    text-align: center;
+    color: white;
+}
+
+.accountMenu h1{
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+/*Account management page styling*/
+.manageContainer{
+    margin-top: 2rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.manageContainer h1, .manageContainer p, .manageContainer h3{
+    color: white;
+}
+
+.manageContainer .btn{
+    background-color: #0A84FF;
+    margin-bottom: 1rem;
+}
+
+/*Handles dynamic scalability on mobile*/
+@media (min-width: 768px) {
+    .accountMenu, .manageContainer{
+        background-color: #2C2C2E;
+        border-radius: 1rem;
+        box-shadow: 0 0.1rem 0.2rem 0 rgba(0,0,0,0.59);
+    }
+}
+

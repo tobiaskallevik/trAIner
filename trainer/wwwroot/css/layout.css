@@ -1,0 +1,96 @@
+/*Styles for the layout page*/
+
+/* Sidebar styles */
+#sidebar {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden; /* There will not appear a scroll in the x-axis */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+
+}
+
+
+/* Fills up the total view height so that the grow element in the sidebar works */
+#sidebar ul {
+    height: 100%;
+    padding-top: 5px;
+}
+
+/* The bottom bar is not visible */
+#bottom-bar {
+    visibility: collapse;
+}
+
+/* Changes from a menu to the left, to a menu on the bottom */
+@media only screen and (max-width: 767px){
+    #sidebar {
+        visibility: collapse;
+    }
+    #bottom-bar {
+        visibility: visible;
+    }
+
+    #renderedBody {
+        padding-bottom: 5rem;
+    }
+}
+
+/* Make buttons with gray background while hovering with rounded corners */ 
+.drop-up-link {
+    border-radius: 5px;
+}
+
+.drop-up-link:hover {
+    background-color: #8e8e93;
+}
+
+/* Removes some Bootstrap design which did not work on our website */
+.no-focus-border:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#sidebar svg {
+    width: 50%;
+    margin: auto;
+    display: block;
+    min-width: 2.5rem;
+}
+
+#sideBarLogoImg img {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+/* Breakpoints */
+@media (min-width: 1000px) {
+    #sideBarLogoImg img {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1440px) {
+    #sideBarLogoImg img {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1920px) {
+    #sidebar svg {
+        width: 40%;
+    }
+    #sideBarLogoImg img {
+        width: 65%;
+    }
+}
+
+/* Hides the logo on small screens */
+@media only screen and (max-width: 550px){
+    #sideBarLogoImg {
+        visibility: collapse;
+    }
+}
+

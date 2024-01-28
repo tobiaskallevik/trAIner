@@ -1,0 +1,40 @@
+﻿@page
+@model ExternalLoginModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="row d-flex justify-content-center accountContainer">
+    <div class="col-md-4 accountMenu">
+        <h1>@ViewData["Title"]</h1>
+        <hr/>
+        <h3 id="external-login-title">Associate your @Model.ProviderDisplayName account.</h3>
+        <hr style="background-color: white"/>
+
+        <p id="external-login-description" class="text-info">
+            You've successfully authenticated with <strong>@Model.ProviderDisplayName</strong>.
+            Please enter an email address and a nickname for this site below and click the Register button to finish
+            logging in.
+        </p>
+
+
+                <form asp-page-handler="Confirmation" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Email" class="form-control" autocomplete="email" placeholder="Please enter your email."/>
+                        <label asp-for="Input.Email" class="form-label"></label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Nickname" class="form-control" autocomplete="email" placeholder="Please enter your email."/>
+                        <label asp-for="Input.Nickname" class="form-label"></label>
+                        <span asp-validation-for="Input.Nickname" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+                </form>
+   
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

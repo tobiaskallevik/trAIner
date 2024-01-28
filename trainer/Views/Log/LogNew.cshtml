@@ -1,0 +1,90 @@
+﻿@model trainer.ViewModels.RoutineWorkoutViewModel
+
+@{
+    ViewBag.Title = "New Log";
+    Layout = "_Layout";
+}
+
+@*Displays a list of the users workouts*@
+
+
+<div class="col-md-6 workoutList m-auto">
+    <div class="d-flex align-items-center justify-content-center">
+        <div class="col-md-2 col-sm-4 d-flex gap-2 dropdown justify-content-center" style="margin-top: 1rem; margin-bottom: 1rem;">
+
+            @*Filter menu for filtering routine*@
+            <h3 style="margin-top: 0.5rem; color: white;">Routine:</h3>
+            <select class="dropdown-toggle col-6 col-md-12 " id="filterByRoutine" name="filterByRoutine">
+                <option value="0">Show All</option>
+                @foreach (var routine in Model.Routines)
+                {
+                    <option value="@routine.Id">@routine.Name</option>
+                }
+            </select>
+
+            @*Back button *@
+            <form asp-action="Index" asp-controller="Trainer" method="get">
+                <button type="submit" class="btn btn-primary" style="width: 3rem; height: 3rem; padding-left: 0.65rem">Exit</button>
+            </form>
+        </div>
+    </div>
+    @foreach (var workout in Model.Workouts.OrderByDescending(w => w.Id))
+    {
+        // Gets the routines that have the workout
+        var routineHasWorkout = Model.RoutineHasWorkouts.Where(rhw => rhw.WorkoutId == workout.Id);
+        var routines = Model.Routines.Where(r => routineHasWorkout.Any(rhw => rhw.RoutineId == r.Id));
+        
+        <div class="row align-items-center justify-content-center workoutContent">
+            <div class="chooseWorkoutToLog position-relative" data-routine-ids="@string.Join(",", routines.Select(r => r.Id))">
+                <div class="card-body d-flex ">
+                    <h3 class="card-title">@workout.Name</h3>
+                    
+                    @*Exercise dropdown*@
+                    <div class="position-absolute end-0" style="color: white; margin-right: 6rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-caret-down workoutDropdownArrow" viewBox="0 -1 16 16">
+                            <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+                        </svg>
+                    </div>
+
+                    <div class="links d-flex" style="margin-top: 0.5rem;">
+                        @*Preforms the AddToLog action in the controller and adds the specified workout*@
+                        <form method="post" asp-action="AddToLog" asp-controller="Log" asp-route-id="@workout.Id">
+                            <button type="submit" class="btn btn-primary" style="margin-top: -0.5rem; max-width: 10rem;">Start</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-11 row">
+                @if (workout.WorkoutHasExercises.Count == 0)
+                {
+                    <div class="d-none justify-content-between exerciseDropdown">
+                        <div><h5 style="color: white">There are no exercises in this workout</h5></div>
+                    </div>
+                }
+                else
+                {
+                    @foreach (var workoutHasExercise in workout.WorkoutHasExercises)
+                    {
+                        <div class="d-none justify-content-between position-relative exerciseDropdown" style="padding-top: 1.2rem;">
+                            <div style="color: white">@workoutHasExercise.Exercise.Name</div>
+                            <div><h5 style="color: white">@workoutHasExercise.Sets Sets</h5></div>
+                            <div class="position-absolute top-0 start-0" style="margin-left: 0.3rem">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="white" class="exerciseInfo" viewBox="0 0 16 16" data-gif-url="@workoutHasExercise.Exercise.GifUrl">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l-.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            
+        </div>
+    }
+</div>
+
+@*Modal for showing exercise gif*@
+<div id="modal1" class="modal">
+    <img class="modal-content" id="img01">
+</div>

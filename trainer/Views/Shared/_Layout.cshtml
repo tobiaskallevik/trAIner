@@ -1,0 +1,236 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    /*var isAccountPage = Context.Request.Path.Value.Contains("/Account/");*/
+    var userManager = await UserManager.GetUserAsync(User);
+}
+
+<div id="notificationsContainer" style="display: none;">
+    <!-- The partial Notification view will be loaded here -->
+    </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Trainer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/account.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/landingpage.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/admin.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/workoutRutinesAndLog.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/social.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/notifications.css" asp-append-version="true" />
+    <link rel="icon" href="~/favicon.ico">
+
+</head>
+<body>
+<div class="container-fluid">
+    @if (SignInManager.IsSignedIn(User) && userManager != null)
+    {
+        <div class="row">
+            <div id="sidebar" class="col-md-1 d-md-block bg-light sidebar d-flex flex-column sticky-top">
+                <ul class="nav d-flex flex-column flex-nowrap pb-3 pb-xxl-5">
+                    <li class="nav-item d-flex justify-content-center pt-4" id="logo-li">
+                        <a id="sideBarLogoImg" asp-area="" asp-controller="Trainer" asp-action="Index">
+                            <img src="~/img/logo.png" alt="Logo">
+                        </a>
+                    </li>
+                    @*Main menu icon desktop*@
+                    <li  class="nav-item d-flex justify-content-center mt-4">
+                        <a class="text-dark" asp-area="" asp-controller="Trainer" asp-action="Index" title="Home">
+                            <svg id="mainMenuDesktopIcon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16">
+                                <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    @*Stats icon desktop*@
+                    <li class="nav-item d-flex justify-content-center align-items-center mt-4">
+                        <a class="text-dark" asp-area="" asp-controller="ExerciseStats" asp-action="Index" title="Stats">
+                            <svg id="statsDesktopIcon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
+                                <path d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    @*Social Icon*@
+                    <li  class="nav-item d-flex justify-content-center align-items-center mt-4" title="Social">
+                        <a class="text-dark" asp-area="" asp-controller="Social" asp-action="Friends">
+                            <svg id="socialDesktopIcon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                                <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    @*Admin Icon*@
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li  class="nav-item d-flex justify-content-center align-items-center mt-4">
+                            <a class="text-dark" asp-area="" asp-controller="Admin" asp-action="Index" title="Admin">
+                                <svg id="adminDesktopIcon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-fill-gear" viewBox="0 0 16 16">
+                                    <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Zm9.886-3.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    }
+
+                    @*Notification Icon*@
+                    <li id="navNotificationsVertical" class="nav-item d-flex justify-content-center align-items-center mt-4" style="position: relative;">
+                        <a class="text-dark" onclick="showNotifications()" title="Notifications">
+                            <svg  xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16" id="icon-bell">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item d-flex flex-grow-1"></li>
+                    
+                    <li class="nav-item d-flex justify-content-center align-items-center mt-4">
+                        <hr style="width:70%;text-align:left;margin-left:0; max-width: 140px; height: 2px;">
+                    </li>
+
+                    <li  class="nav-item d-flex justify-content-center align-items-center mt-4">
+                        <a class="text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Profile">
+                            <svg id="accountDesktopIcon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    @*Logout Icon*@
+                    <partial name="_LoginPartial"/>
+
+                </ul>
+            </div>
+
+            @* The navbar which is fixed to the bottom. For narrow screens *@
+            <nav id="bottom-bar" class="navbar fixed-bottom navbar-light bg-light">
+                <div class="container-fluid">
+                    
+                    <div class="collapse navbar-collapse mb-3" id="navbarCollapse">
+                        <hr class="mt-0" style="width:100%;text-align:left;margin-left:0; height: 5px;">
+                        
+                        <div class="bottom-bar-dropdown navbar-nav container-fluid">
+                            
+                            
+                            <form class="p-2" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("LandingPage", "Landing", new { area = "" })">
+                                <button class="btn btn-secondary">Log Out</button>
+                            </form>
+                            
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <a class="p-2 text-dark drop-up-link" asp-area="" asp-controller="Admin" asp-action="Index" title="Admin" style="text-decoration: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-fill-gear" viewBox="0 0 16 16">
+                                        <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Zm9.886-3.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"/>
+                                    </svg>
+                                    Admin
+                                </a>
+                            }
+
+                            <a class="p-2 text-dark drop-up-link" asp-area="" asp-controller="Social" asp-action="Friends" title="Social" style="text-decoration: none;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                                </svg>
+                                Social
+                            </a>
+                            
+                            <a class="p-2 text-dark drop-up-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Profile" style="text-decoration: none;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                                </svg>
+                                Profile
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="col-1 justify-content-center" id="bottom-bar-logo">
+                        <a id="sideBarLogoImg" asp-area="" asp-controller="Trainer" asp-action="Index">
+                            <img src="~/img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <div class="col-10">
+                        <ul class="nav d-flex flex-row flex-nowrap justify-content-center">
+                            <li class="nav-item d-flex justify-content-center align-items-center mx-3">
+                                <a class="text-dark" asp-area="" asp-controller="ExerciseStats" asp-action="Index" title="Stats">
+                                    <svg id="statsMobileIcon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
+                                        <path d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="nav-item d-flex justify-content-center mx-3">
+                                <a class="text-dark" asp-area="" asp-controller="Trainer" asp-action="Index" title="Index">
+                                    <svg id="mainMenuMobileIcon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16">
+                                        <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                                    </svg>
+                                </a>
+                            </li>
+
+
+                            <li id="navNotificationsHorizontal" class="nav-item d-flex justify-content-center align-items-center mx-3" style="position: relative;">
+                                <a class="text-dark" onclick="showNotifications()" title="Notifications">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16" id="icon-bell">
+                                        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button type="button" class="col-1 navbar-toggler border-0 no-focus-border" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" title="Show More">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                </div>
+            </nav>
+            
+            @*<div class="offsetDiv col-md-1"></div>*@
+
+            <main class="offset-md-1 col-md-11 col-sm-12" id="renderedBody">
+                <div class="container-fluid">
+                    @RenderBody()
+                </div>
+            </main>
+        </div>
+    }
+     else
+        {
+            @RenderBody()
+        }
+    
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/js/workouts.js" asp-append-version="true"></script>
+<script src="~/js/routines.js" asp-append-version="true"></script>
+<script src="~/js/log.js" asp-append-version="true"></script>
+<script src="~/js/shared.js" asp-append-version="true"></script>
+<script src="~/js/social.js" asp-append-version="true"></script>
+<script src="~/js/stats.js" asp-append-version="true"></script>
+<script src="~/js/account.js" asp-append-version="true"></script>
+<script src="~/js/Notifications.js" asp-append-version="true"></script>
+<script src="https://code.jquery.com/jquery-3.x.x.min.js"></script>
+<script src="~/js/exercise_stats.js" asp-append-version="true"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script> @*Google Platform Library*@
+@* Adds the graph charts.js *@
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+<script src="~/js/facebookSDK.js"></script> @*Facebook SDK*@
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

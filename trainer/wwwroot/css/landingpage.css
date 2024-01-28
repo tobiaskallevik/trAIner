@@ -1,0 +1,117 @@
+.welcome-heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-shadow: black 0.1rem 0.1rem 0.2rem;
+    margin-top: 0.3rem;
+}
+
+.fitness-intro {
+    color: #40c8e0;
+}
+
+#loginlandig,
+#registerlanding {
+    margin: 0.5rem;
+    width: 15em;
+    box-shadow: black 0 0.2em 0.5rem 0;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.landingPageLogo {
+    height: 10rem;
+    width: auto;
+}
+
+.logoLine {
+    background-color: #0a84ff;
+    font-weight: bolder;
+    width: 25vw;
+    height: 0.2rem;
+    border-radius: 1rem;
+    margin: -0.1rem;
+    z-index: -1;
+}
+
+.landingPageBox {
+    background-color: #3a3a3c;
+    border-radius: 0.75rem;
+    border-style: solid;
+    border-color: #0a84ff;
+    box-shadow: black 0 0.4em 0.5rem 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bolder;
+    height: 15rem;
+    width: 20rem;
+    margin: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.landingPageBox p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px black;
+}
+
+.landingPageBox h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 1rem;
+}
+
+.landingPageContainer {
+    margin-top: 10rem;
+}
+
+@media (max-width: 768px) {
+    #loginlandig,
+    #registerlanding {
+        width: 6rem;
+        margin-top: 0.5rem;
+    }
+
+    .landingPageBox{
+        height: 8rem;
+        width: 30rem;
+        border-width: thin;
+    }
+
+    .landingPageContainer {
+        margin-top: 1rem;
+    }
+    
+    .welcome-heading {
+        margin-top: 0.5rem;
+    }
+
+    .landingPageLogo {
+        height: 5rem;
+        width: auto;
+    }
+    
+    .landingPageBox h3 {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+
+    .landingPageBox p {
+        font-size: 0.8rem;
+    }
+    
+    .logoLine {
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .landingPageBox{
+        height: 10rem;
+    }
+}

@@ -1,0 +1,4719 @@
+﻿[
+  {
+    "name": "Stick Drill Plyometrics",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "1-2-Stick-Drill-Plyometrics.gif"
+  },
+  {
+    "name": "45 Degree Incline Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "45-Degree-Incline-Row.gif"
+  },
+  {
+    "name": "Lever Pec Deck Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "10301301-Lever-Pec-Deck-Fly_Chest_720.gif"
+  },
+  {
+    "name": "Ab Coaster Machine",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Ab-Coaster-Machine.gif"
+  },
+  {
+    "name": "Abdominal Stretch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "abdominal-stretch.gif"
+  },
+  {
+    "name": "Above Head Chest Stretch",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Above-Head-Chest-Stretch.gif"
+  },
+  {
+    "name": "Ab Roller Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Ab-Roller-Crunch.gif"
+  },
+  {
+    "name": "Ab Straps Leg Raise",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Ab-Straps-Leg-Raise.gif"
+  },
+  {
+    "name": "Across Chest Shoulder Stretch",
+    "muscleGroup": "Shoulders",
+    "requiresGym": false,
+    "gifUrl": "Across-Chest-Shoulder-Stretch.gif"
+  },
+  {
+    "name": "Adductor Magnus Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Adductor-Magnus-Stretch.gif"
+  },
+  {
+    "name": "Alternate Dumbbell Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Alternate-Dumbbell-Bench-Press.gif"
+  },
+  {
+    "name": "Alternate Leg Raises",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Alternate-Leg-Raises.gif"
+  },
+  {
+    "name": "Alternate Lying Floor Leg Raise",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Alternate-Lying-Floor-Leg-Raise.gif"
+  },
+  {
+    "name": "Alternating Dumbbell Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Alternating-Dumbbell-Front-Raise.gif"
+  },
+  {
+    "name": "Arm Blaster Hammer Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Arm-Blaster-Hammer-Curl.gif"
+  },
+  {
+    "name": "Arm Circles",
+    "muscleGroup": "Shoulders",
+    "requiresGym": false,
+    "gifUrl": "arm-circles.gif"
+  },
+  {
+    "name": "Arm Circles Shoulders",
+    "muscleGroup": "Shoulders",
+    "requiresGym": false,
+    "gifUrl": "Arm-Circles_Shoulders.gif"
+  },
+  {
+    "name": "Arm Scissors",
+    "muscleGroup": "Shoulders",
+    "requiresGym": false,
+    "gifUrl": "Arm-Scissors.gif"
+  },
+  {
+    "name": "Arnold Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Arnold-Press.gif"
+  },
+  {
+    "name": "Assisted Triceps Dips",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Asisted-Triceps-Dips.gif"
+  },
+  {
+    "name": "Assault AirBike",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Assault-AirBike.gif"
+  },
+  {
+    "name": "Assault Air Runner",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Assault-Air-Runner.gif"
+  },
+  {
+    "name": "Assisted Chest Dip",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Assisted-Chest-Dip.gif"
+  },
+  {
+    "name": "Assisted Pull-up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Assisted-Pull-up.gif"
+  },
+  {
+    "name": "Astride Jumps",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Astride-Jumps.gif"
+  },
+  {
+    "name": "Back Pec Stretch",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Back-Pec-Stretch.gif"
+  },
+  {
+    "name": "Backward Jumping",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Backward-Jumping.gif"
+  },
+  {
+    "name": "Backwards Running",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Backwards-Running.gif"
+  },
+  {
+    "name": "Band Assisted Sprinter Run",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Band-Assisted-Sprinter-Run.gif"
+  },
+  {
+    "name": "Band Biceps Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": false,
+    "gifUrl": "Band-Biceps-Curl.gif"
+  },
+  {
+    "name": "Band Pull Apart",
+    "muscleGroup": "Shoulders",
+    "requiresGym": false,
+    "gifUrl": "Band-pull-apart.gif"
+  },
+  {
+    "name": "Barbell Pullover",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Pullover.gif"
+  },
+  {
+    "name": "Barbell Sumo Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Sumo-Squat.gif"
+  },
+  {
+    "name": "Barbell Alternate Biceps Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Alternate-Biceps-Curl.gif"
+  },
+  {
+    "name": "Barbell Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Bench-Press.gif"
+  },
+  {
+    "name": "Barbell Bent Over Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Bent-Over-Row.gif"
+  },
+  {
+    "name": "Barbell Bulgarian Split Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Bulgarian-Split-Squat.gif"
+  },
+  {
+    "name": "Barbell Clean and Press",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Clean-and-Press-.gif"
+  },
+  {
+    "name": "Barbell Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Curl.gif"
+  },
+  {
+    "name": "Barbell Curl On Arm Blaster",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Curl-On-Arm-Blaster.gif"
+  },
+  {
+    "name": "Barbell Deadlift",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Deadlift.gif"
+  },
+  {
+    "name": "Barbell Drag Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Drag-Curl.gif"
+  },
+  {
+    "name": "Barbell Finger Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Finger-Curl.gif"
+  },
+  {
+    "name": "Barbell Good Morning",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Good-Morning.gif"
+  },
+  {
+    "name": "Barbell Hack Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Hack-Squat.gif"
+  },
+  {
+    "name": "Barbell Lateral Lunge",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Lateral-Lunge.gif"
+  },
+  {
+    "name": "Barbell Lunge",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Lunge.gif"
+  },
+  {
+    "name": "Barbell One-Arm Floor Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Barbell-One-Arm-Floor-Press.gif"
+  },
+  {
+    "name": "Barbell Rack Pull",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "barbell-rack-pull.gif"
+  },
+  {
+    "name": "Barbell Rear Delt Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Rear-Delt-Raise.gif"
+  },
+  {
+    "name": "Barbell Reverse Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Reverse-Curl.gif"
+  },
+  {
+    "name": "Barbell Reverse Wrist Curl",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Reverse-Wrist-Curl.gif"
+  },
+  {
+    "name": "Barbell Reverse Wrist Curl Over a Bench",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Reverse-Wrist-Curl-Over-a-Bench.gif"
+  },
+  {
+    "name": "Barbell Romanian Deadlift",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Romanian-Deadlift.gif"
+  },
+  {
+    "name": "Barbell Seated Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Seated-Calves-Raise.gif"
+  },
+  {
+    "name": "Barbell Seated Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Seated-Twist.gif"
+  },
+  {
+    "name": "Barbell Shoulder Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Shoulder-Press.gif"
+  },
+  {
+    "name": "Barbell Shrug",
+    "muscleGroup": "Traps",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Shrug.gif"
+  },
+  {
+    "name": "Barbell Side Bend",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Side-Bend.gif"
+  },
+  {
+    "name": "Barbell Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "BARBELL-SQUAT.gif"
+  },
+  {
+    "name": "Barbell Standing Military Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Standing-Military-Press.gif"
+  },
+  {
+    "name": "Barbell Step-Up",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Step-Up.gif"
+  },
+  {
+    "name": "Barbell Sumo Deadlift",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Sumo-Deadlift.gif"
+  },
+  {
+    "name": "Barbell Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Triceps-Extension.gif"
+  },
+  {
+    "name": "Barbell Upright Row",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Barbell-Upright-Row.gif"
+  },
+  {
+    "name": "Barbell Wrist Curl",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "barbell-Wrist-Curl.gif"
+  },
+  {
+    "name": "Battle Rope",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Battle-Rope.gif"
+  },
+  {
+    "name": "Bear Crawl",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Bear-Crawl.gif"
+  },
+  {
+    "name": "Behind The Back Barbell Shrug",
+    "muscleGroup": "Traps",
+    "requiresGym": true,
+    "gifUrl": "Behind-The-Back-Barbell-Shrug-Reverse-Barbell-Shrug.gif"
+  },
+  {
+    "name": "Behind The Back Barbell Wrist Curl",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "Behind-The-Back-Barbell-Wrist-Curl.gif"
+  },
+  {
+    "name": "Bench Dips",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Bench-Dips.gif"
+  },
+  {
+    "name": "Bench Press Machine Standing Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Bench-Press-Machine-Standing-Calves-Raise.gif"
+  },
+  {
+    "name": "Bench Side Bend",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Bench-Side-Bend.gif"
+  },
+  {
+    "name": "Bench Supported Dumbbell External Rotation",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Bench-Supported-Dumbbell-External-Rotation.gif"
+  },
+  {
+    "name": "Bent Over Barbell Reverse Raise",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Bent-Over-Barbell-Reverse-Raise.gif"
+  },
+  {
+    "name": "Bent Over Dumbbell Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Bent-Over-Dumbbell-Row.gif"
+  },
+  {
+    "name": "Bent Over Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Bent-Over-Lateral-Raise.gif"
+  },
+  {
+    "name": "Bent Over Rear Delt Fly (Gymstick)",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Bent-Over-Rear-Delt-Fly-Gymstick.gif"
+  },
+  {
+    "name": "Bent Over Reverse Cable Fly",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Bent-Over-Reverse-Cable-Fly.gif"
+  },
+  {
+    "name": "Bent Over Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Bent-Over-Twist.gif"
+  },
+  {
+    "name": "Bicep Curl Machine",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Bicep-Curl-Machine.gif"
+  },
+  {
+    "name": "Biceps Leg Concentration Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Biceps-Leg-Concentration-Curl.gif"
+  },
+  {
+    "name": "Bicycle Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Bicycle-Crunch.gif"
+  },
+  {
+    "name": "Bike",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Bike.gif"
+  },
+  {
+    "name": "Boat Pose Stretch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Boat-Pose-Stretch.gif"
+  },
+  {
+    "name": "Body Ups",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Body-Ups.gif"
+  },
+  {
+    "name": "Bodyweight Lunges",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "bodyweight-lunges.gif"
+  },
+  {
+    "name": "Bodyweight Military Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": false,
+    "gifUrl": "Bodyweight-Military-Press.gif"
+  },
+  {
+    "name": "Bodyweight Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Bodyweight-Squat.gif"
+  },
+  {
+    "name": "Bodywheight Sumo Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "BODYWEIGHT-SUMO-SQUAT.gif"
+  },
+  {
+    "name": "Bodyweight Walking Lunge",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "bodyweight-walking-lunge.gif"
+  },
+  {
+    "name": "Bodyweight Windmill",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Bodyweight-Windmill.gif"
+  },
+  {
+    "name": "Boxer Shuffle Cardio",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Boxer-Shuffle-Cardio.gif"
+  },
+  {
+    "name": "Boxing Right Cross with Boxing Bag",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Boxing-Right-Cross-with-boxing-bag.gif"
+  },
+  {
+    "name": "Box Jump 1 to 2",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Box-Jump-1-to-2.gif"
+  },
+  {
+    "name": "Box Jump 2 to 1",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Box-Jump-2-to-1.gif"
+  },
+  {
+    "name": "Box Jump to Pistol Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Box-Jump-to-Pistol-Squat.gif"
+  },
+  {
+    "name": "Brachialis Pull-up",
+    "muscleGroup": "Forearms",
+    "requiresGym": false,
+    "gifUrl": "Brachialis-Pull-up.gif"
+  },
+  {
+    "name": "Briskly Walking",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Briskly-Walking.gif"
+  },
+  {
+    "name": "Bulgarian Split Squat Jump",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Bulgarian Split Squat Jump.gif"
+  },
+  {
+    "name": "Burpees",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "burpees.gif"
+  },
+  {
+    "name": "Butt Kicks",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Butt-Kicks.gif"
+  },
+  {
+    "name": "Cable Incline Biceps Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Cable Incline Biceps Curl.gif"
+  },
+  {
+    "name": "Cable Two Arm Curl on Incline Bench",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Cable Two Arm Curl on Incline Bench.gif"
+  },
+  {
+    "name": "Cable Bent Over Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Cable-Bent-Over-Row.gif"
+  },
+  {
+    "name": "Cable Concentration Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Concentration-Curl.gif"
+  },
+  {
+    "name": "Cable Concentration Extension on Knee",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Concentration-Extension-on-knee.gif"
+  },
+  {
+    "name": "Cable Crossover",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Cable-Crossover.gif"
+  },
+  {
+    "name": "Cable Crossover Lat Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Cable-Crossover-Lat-Pulldown.gif"
+  },
+  {
+    "name": "Cable Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "cable-curl.gif"
+  },
+  {
+    "name": "Cable External Shoulder Rotation",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Cable-External-Shoulder-Rotation.gif"
+  },
+  {
+    "name": "Cable Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Cable-Front-Raise.gif"
+  },
+  {
+    "name": "Cable Hips Adduction",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Cable-Hips-Adduction.gif"
+  },
+  {
+    "name": "Cable Incline Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Incline-Triceps-Extension.gif"
+  },
+  {
+    "name": "Cable Internal Shoulder Rotation",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Cable-Internal-Shoulder-Rotation.gif"
+  },
+  {
+    "name": "Cable Kneeling Biceps Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Kneeling-Biceps-Curl.gif"
+  },
+  {
+    "name": "Cable Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Cable-Lateral-Raise.gif"
+  },
+  {
+    "name": "Cable Lying Triceps Extensions",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Lying-Triceps-Extensions.gif"
+  },
+  {
+    "name": "Cable One Arm Lat Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Cable-One-Arm-Lat-Pulldown.gif"
+  },
+  {
+    "name": "Cable One Arm Overhead Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-One-Arm-Overhead-Triceps-Extension.gif"
+  },
+  {
+    "name": "Cable One Arm Wrist Curl On Floor",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "Cable-One-Arm-Wrist-Curl-On-Floor.gif"
+  },
+  {
+    "name": "Cable Preacher Curls",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "cable-preacher-curls.gif"
+  },
+  {
+    "name": "Cable Pulldown Bicep Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Pulldown-Bicep-Curl.gif"
+  },
+  {
+    "name": "Cable Rear Delt Fly",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "cable-rear-delt-fly.gif"
+  },
+  {
+    "name": "Cable Rear Drive",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Cable-Rear-Drive.gif"
+  },
+  {
+    "name": "Cable Rear Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Cable-Rear-Pulldown.gif"
+  },
+  {
+    "name": "Cable Reverse Grip EZ-bar Biceps Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Reverse-Grip-EZ-bar-Biceps-Curl.gif"
+  },
+  {
+    "name": "Cable Rope Overhead Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Rope-Overhead-Triceps-Extension.gif"
+  },
+  {
+    "name": "Cable Seated Cross Arm Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Cable-Seated-Cross-Arm-Twist.gif"
+  },
+  {
+    "name": "Cable Seated Neck Extension with Head Harness",
+    "muscleGroup": "Neck",
+    "requiresGym": true,
+    "gifUrl": "Cable-Seated-Neck-Extension-with-head-harness.gif"
+  },
+  {
+    "name": "Cable Seated Neck Flexion with Head Harness",
+    "muscleGroup": "Neck",
+    "requiresGym": true,
+    "gifUrl": "Cable-Seated-Neck-Flexion-with-head-harness.gif"
+  },
+  {
+    "name": "Cable Seated Pullover",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Cable-Seated-Pullover.gif"
+  },
+  {
+    "name": "Cable Seated Shoulder Internal Rotation",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Cable-Seated-Shoulder-Internal-Rotation.gif"
+  },
+  {
+    "name": "Cable Shoulder Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Cable-Shoulder-Press.gif"
+  },
+  {
+    "name": "Cable Shrug",
+    "muscleGroup": "Traps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Shrug.gif"
+  },
+  {
+    "name": "Cable Side Bend",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Cable-Side-Bend.gif"
+  },
+  {
+    "name": "Cable Side Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Side-Triceps-Extension.gif"
+  },
+  {
+    "name": "Cable Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Cable-Squat.gif"
+  },
+  {
+    "name": "Cable Straight Arm Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Cable-Straight-Arm-Pulldown.gif"
+  },
+  {
+    "name": "Cable Tricep Kickback",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Cable-Tricep-Kickback.gif"
+  },
+  {
+    "name": "Cable Upper Chest Crossovers",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Cable-Upper-Chest-Crossovers.gif"
+  },
+  {
+    "name": "Cable Upright Row",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Cable-Upright-Row.gif"
+  },
+  {
+    "name": "Cable Y Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "cable-y-raise.gif"
+  },
+  {
+    "name": "Calves Raise with Resistance Band",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Calves-Raise-with-Resistance-Band.gif"
+  },
+  {
+    "name": "Calves Stretch with Rope",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Calves-Stretch-with-Rope.gif"
+  },
+  {
+    "name": "Calves Stretch Static Position",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Calves-Stretch-Static-Position.gif"
+  },
+  {
+    "name": "Captains Chair Leg Raise",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Captains-Chair-Leg-Raise.gif"
+  },
+  {
+    "name": "Chair Dips",
+    "muscleGroup": "Triceps",
+    "requiresGym": false,
+    "gifUrl": "CHAIR-DIPS.gif"
+  },
+  {
+    "name": "Chest Dips",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Chest-Dips.gif"
+  },
+  {
+    "name": "Chin Up Around the Bar",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Chin Up Around the Bar.gif"
+  },
+  {
+    "name": "Chin Tuck",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Chin-Tuck.gif"
+  },
+  {
+    "name": "Chin Up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Chin-Up.gif"
+  },
+  {
+    "name": "Clap Push-Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Clap-Push-Up.gif"
+  },
+  {
+    "name": "Close Grip Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip Dumbbell Press.gif"
+  },
+  {
+    "name": "Close Grip Barbell Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "close-grip-barbell-curl.gif"
+  },
+  {
+    "name": "Close Grip Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Bench-Press.gif"
+  },
+  {
+    "name": "Clos Grip Cable Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "close-grip-cable-row.gif"
+  },
+  {
+    "name": "Close Grip Chin-Up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Chin-Up.gif"
+  },
+  {
+    "name": "Close Grip Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Dumbbell-Press.gif"
+  },
+  {
+    "name": "Close Grip Incline Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Close-grip-Incline-Dumbbell-Press.gif"
+  },
+  {
+    "name": "Close Grip Lat Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Lat-Pulldown.gif"
+  },
+  {
+    "name": "Close Grip Z Bar Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Z-Bar-Curl.gif"
+  },
+  {
+    "name": "Concentration Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Concentration-Curl.gif"
+  },
+  {
+    "name": "Cossack Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Cossack-Squat.gif"
+  },
+  {
+    "name": "Crab Twist Toe Touch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Crab-Twist-Toe-Touch.gif"
+  },
+  {
+    "name": "Cross Body Push-up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Cross Body Push-up.gif"
+  },
+  {
+    "name": "Cross Arm Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Cross-Arm-Push-up.gif"
+  },
+  {
+    "name": "Cross Body Mountain Climber",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Cross-Body-Mountain-Climber.gif"
+  },
+  {
+    "name": "Cross Cable Face Pull",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Cross-Cable-Face-Pull.gif"
+  },
+  {
+    "name": "Cross Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Cross-Crunch.gif"
+  },
+  {
+    "name": "Crouching Heel Back Calves Stretch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Crouching-Heel-Back-Calves-Stretch.gif"
+  },
+  {
+    "name": "Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Crunch.gif"
+  },
+  {
+    "name": "Crunch With Leg Raise",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Crunch-With-Leg-Raise.gif"
+  },
+  {
+    "name": "Curtsey Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Curtsey-Squat.gif"
+  },
+  {
+    "name": "Dead Bug",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Dead-Bug.gif"
+  },
+  {
+    "name": "Decline Barbell Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Decline-Barbell-Bench-Press.gif"
+  },
+  {
+    "name": "Decline Cable Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Decline-Cable-Fly.gif"
+  },
+  {
+    "name": "Decline Chest Press Machine",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Decline-Chest-Press-Machine.gif"
+  },
+  {
+    "name": "Decline Close Grip Bench To Skull Crusher",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Decline-Close-Grip-Bench-To-Skull-Crusher.gif"
+  },
+  {
+    "name": "Decline Dumbbell Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Decline-Dumbbell-Fly.gif"
+  },
+  {
+    "name": "Decline Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Decline-Dumbbell-Press.gif"
+  },
+  {
+    "name": "Decline Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Decline-Push-Up.gif"
+  },
+  {
+    "name": "Decline Sit Up",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Decline-Sit-up.gif"
+  },
+  {
+    "name": "Depth Jump to Hurdle Hop",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Depth-Jump-to-Hurdle-Hop.gif"
+  },
+  {
+    "name": "Diagonal Neck Stretch",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Diagonal-Neck-Stretch.gif"
+  },
+  {
+    "name": "Diamond Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Diamond-Push-up.gif"
+  },
+  {
+    "name": "Dips Between Chairs",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Dips-Between-Chairs.gif"
+  },
+  {
+    "name": "Dip Shrugs",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dip-Shrugs.gif"
+  },
+  {
+    "name": "Donkey Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Donkey-Calves-Raise.gif"
+  },
+  {
+    "name": "Double Arm Dumbbell Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Double-Arm-Dumbbell-Curl.gif"
+  },
+  {
+    "name": "Double Cable Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Double-Cable-Front-Raise.gif"
+  },
+  {
+    "name": "Double Cable Neutral Grip Lat Pulldown On Floor",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Double-Cable-Neutral-Grip-Lat-Pulldown-On-Floor.gif"
+  },
+  {
+    "name": "Double Leg Stretch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Double-Leg-Stretch.gif"
+  },
+  {
+    "name": "Drop Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Drop-Push-Up.gif"
+  },
+  {
+    "name": "Dumbbell 4 Ways Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-4-Ways-Lateral-Raise.gif"
+  },
+  {
+    "name": "Dumbbell 6 Ways Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-6-Ways-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Alternate Preacher Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Alternate-Preacher-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Bent Arm Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Bent-Arm-Lateral-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Bent Over Reverse Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Bent-Over-Reverse-Row.gif"
+  },
+  {
+    "name": "Dumbbell Bulgarian Split Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Bulgarian-Split-Squat.gif"
+  },
+  {
+    "name": "Dumbbell Burpees",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Burpees.gif"
+  },
+  {
+    "name": "Dumbbell Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Calves-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Chest Supported Lateral Raises",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Chest-Supported-Lateral-Raises.gif"
+  },
+  {
+    "name": "Dumbbell Cuban External Rotation",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Cuban-External-Rotation.gif"
+  },
+  {
+    "name": "Dumbbell Cuban Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "dumbbell-cuban-press-.gif"
+  },
+  {
+    "name": "Dumbbell Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Curl On Arm Blaster",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Curl-On-Arm-Blaster.gif"
+  },
+  {
+    "name": "Dumbbell Deadlifts",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Deadlifts.gif"
+  },
+  {
+    "name": "Dumbbell Decline One Arm Hammer Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Decline-One-Arm-Hammer-Press.gif"
+  },
+  {
+    "name": "Dumbbell Decline Shrug",
+    "muscleGroup": "Traps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Decline-Shrug.gif"
+  },
+  {
+    "name": "Dumbbell Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Fly.gif"
+  },
+  {
+    "name": "Dumbbell Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Front-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Goblet Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Goblet-Squat.gif"
+  },
+  {
+    "name": "Dumbbell Good Morning",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Good-Morning.gif"
+  },
+  {
+    "name": "Dumbbell High Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-High-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Incline T Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Incline-T-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Incline Two-Arm Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Incline-Two-Arm-Extension.gif"
+  },
+  {
+    "name": "Dumbbell Jump Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Jump-Squat.gif"
+  },
+  {
+    "name": "Dumbbell Kickback",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Kickback.gif"
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Lateral-Raise.gif"
+  },
+  {
+    "name": "Dumbbell One-Arm Preacher Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-One-Arm-Preacher-Curl.gif"
+  },
+  {
+    "name": "Dumbbell One-Arm Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-One-Arm-Row.gif"
+  },
+  {
+    "name": "Dumbbell One-Arm Shrug",
+    "muscleGroup": "Traps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-One-Arm-Shrug.gif"
+  },
+  {
+    "name": "Dumbbell Overhead Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Overhead-Triceps-Extension.gif"
+  },
+  {
+    "name": "Dumbbell Pallof Press",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Pallof-Press.gif"
+  },
+  {
+    "name": "Dumbbell Pinch Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Pinch-Press.gif"
+  },
+  {
+    "name": "Dumbbell Plank Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Plank-Row.gif"
+  },
+  {
+    "name": "Dumbbell Rear Delt Fly",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Rear-Delt-Fly.gif"
+  },
+  {
+    "name": "Dumbbell Rear Delt Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Rear-Delt-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Reverse Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Reverse-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Reverse Wrist Curl",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Reverse-Wrist-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Reverse Wrist Curl Over A Bench",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Reverse-Wrist-Curl-Over-a-Bench.gif"
+  },
+  {
+    "name": "Dumbbell Romanian Deadlift",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Romanian-Deadlift.gif"
+  },
+  {
+    "name": "Dumbbell Seated Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Seated-Calves-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Seated Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Seated-Twist.gif"
+  },
+  {
+    "name": "Dumbbell Shoulder Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Shoulder-Press.gif"
+  },
+  {
+    "name": "Dumbbell Shrug",
+    "muscleGroup": "Traps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Shrug.gif"
+  },
+  {
+    "name": "Dumbbell Side Bend",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Side-Bend.gif"
+  },
+  {
+    "name": "Dumbbell Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Squat.gif"
+  },
+  {
+    "name": "Dumbbell Straight Arm Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Straight-Arm-Pulldown.gif"
+  },
+  {
+    "name": "Dumbbell Tricep Kickback",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Tricep-Kickback.gif"
+  },
+  {
+    "name": "Dumbbell Upper Chest Crossovers",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Upper-Chest-Crossovers.gif"
+  },
+  {
+    "name": "Dumbbell Upright Row",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Upright-Row.gif"
+  },
+  {
+    "name": "Dumbbell Y Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "dumbbell-y-raise.gif"
+  },
+  {
+    "name": "Calves Stretch with Rope",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Calves-Stretch-with-Rope.gif"
+  },
+  {
+    "name": "Calves Stretch Static Position",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Calves-Stretch-Static-Position.gif"
+  },
+  {
+    "name": "Captains Chair Leg Raise",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Captains-Chair-Leg-Raise.gif"
+  },
+  {
+    "name": "Chair Dips",
+    "muscleGroup": "Triceps",
+    "requiresGym": false,
+    "gifUrl": "CHAIR-DIPS.gif"
+  },
+  {
+    "name": "Chest Dips",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Chest-Dips.gif"
+  },
+  {
+    "name": "Chin Up Around the Bar",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Chin Up Around the Bar.gif"
+  },
+  {
+    "name": "Chin Tuck",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Chin-Tuck.gif"
+  },
+  {
+    "name": "Chin Up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Chin-Up.gif"
+  },
+  {
+    "name": "Clap Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Clap-Push-Up.gif"
+  },
+  {
+    "name": "Close Grip Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Dumbbell-Press.gif"
+  },
+  {
+    "name": "Calves Raise with Resistance Band",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Calves-Raise-with-Resistance-Band.gif"
+  },
+  {
+    "name": "Dumbbell Incline Shrug",
+    "muscleGroup": "Traps" ,
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Incline-Shrug.gif"
+  },
+  {
+    "name": "Close Grip Barbell Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "close-grip-barbell-curl.gif"
+  },
+  {
+    "name": "Close-Grip Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Bench-Press.gif"
+  },
+  {
+    "name": "Close Grip Cable Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "close-grip-cable-row.gif"
+  },
+  {
+    "name": "Close Grip Chin Up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Chin-Up.gif"
+  },
+  {
+    "name": "Close Grip Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Dumbbell-Press.gif"
+  },
+  {
+    "name": "Close Grip Incline Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "close-grip-Incline-Dumbbell-Press.gif"
+  },
+  {
+    "name": "Close Grip Lat Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Lat-Pulldown.gif"
+  },
+  {
+    "name": "Close Grip Z Bar Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Close-Grip-Z-Bar-Curl.gif"
+  },
+  {
+    "name": "Concentration Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Concentration-Curl.gif"
+  },
+  {
+    "name": "Cossack Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Cossack-Squat.gif"
+  },
+  {
+    "name": "Crab Twist Toe Touch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Crab-Twist-Toe-Touch.gif"
+  },
+  {
+    "name": "Cross Body Push-up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Cross Body Push-up.gif"
+  },
+  {
+    "name": "Cross Arm Push-up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Cross-Arm-Push-up.gif"
+  },
+  {
+    "name": "Cross Body Mountain Climber",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Cross-Body-Mountain-Climber.gif"
+  },
+  {
+    "name": "Cross Cable Face Pull",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Cross-Cable-Face-Pull.gif"
+  },
+  {
+    "name": "Cross Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Cross-Crunch.gif"
+  },
+  {
+    "name": "Crouching Heel Back Calves Stretch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Crouching-Heel-Back-Calves-Stretch.gif"
+  },
+  {
+    "name": "Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Crunch.gif"
+  },
+  {
+    "name": "Crunch With Leg Raise",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Crunch-With-Leg-Raise.gif"
+  },
+  {
+    "name": "Curtsey Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Curtsey-Squat.gif"
+  },
+  {
+    "name": "Dead Bug",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Dead-Bug.gif"
+  },
+  {
+    "name": "Decline Barbell Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Decline-Barbell-Bench-Press.gif"
+  },
+  {
+    "name": "Decline Cable Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Decline-Cable-Fly.gif"
+  },
+  {
+    "name": "Decline Chest Press Machine",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Decline-Chest-Press-Machine.gif"
+  },
+  {
+    "name": "Decline Close-Grip Bench To Skull Crusher",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Decline-Close-Grip-Bench-To-Skull-Crusher.gif"
+  },
+  {
+    "name": "Decline Dumbbell Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Decline-Dumbbell-Fly.gif"
+  },
+  {
+    "name": "Decline Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Decline-Dumbell-Press.gif"
+  },
+  {
+    "name": "Decline Push-Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Decline-Push-Up.gif"
+  },
+  {
+    "name": "Decline Sit-Up",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Decline-Sit-up.gif"
+  },
+  {
+    "name": "Depth Jump to Hurdle Hop",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Depth-Jump-to-Hurdle-Hop.gif"
+  },
+  {
+    "name": "Diagonal Neck Stretch",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Diagonal-Neck-Stretch-360x360.png"
+  },
+  {
+    "name": "Diamond Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Diamond-Push-up.gif"
+  },
+  {
+    "name": "Dips Between Chairs",
+    "muscleGroup": "Triceps",
+    "requiresGym": false,
+    "gifUrl": "Dips-Between-Chairs.gif"
+  },
+  {
+    "name": "Dip Shrugs",
+    "muscleGroup": "Traps",
+    "requiresGym": true,
+    "gifUrl": "Dip-Shrugs.gif"
+  },
+  {
+    "name": "Donkey Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Donkey-Calves-Raise.gif"
+  },
+  {
+    "name": "Double Arm Dumbbell Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Double-Arm-Dumbbell-Curl.gif"
+  },
+  {
+    "name": "Double Cable Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Double-Cable-Front-Raise.gif"
+  },
+  {
+    "name": "Double Cable Neutral Grip Lat Pulldown On Floor",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Double-Cable-Neutral-Grip-Lat-Pulldown-On-Floor.gif"
+  },
+  {
+    "name": "Double Leg Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Double-Leg-Stretch.gif"
+  },
+  {
+    "name": "Drop Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Drop-Push-Up.gif"
+  },
+  {
+    "name": "Dumbbell 4 Ways Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-4-Ways-Lateral-Raise.gif"
+  },
+  {
+    "name": "Dumbbell 6 Ways Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-6-Ways-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Alternate Preacher Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Alternate-Preacher-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Bent Arm Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Bent-Arm-Lateral-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Bent Over Reverse Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Bent-Over-Reverse-Row.gif"
+  },
+  {
+    "name": "Dumbbell Bulgarian Split Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Bulgarian-Split-Squat.gif"
+  },
+  {
+    "name": "Dumbbell Burpees",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Burpees.gif"
+  },
+  {
+    "name": "Dumbbell Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Calves-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Chest Supported Lateral Raises",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Chest-Supported-Lateral-Raises.gif"
+  },
+  {
+    "name": "Dumbbell Cuban External Rotation",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Cuban-External-Rotation.gif"
+  },
+  {
+    "name": "Dumbbell Cuban Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "dumbbell-cuban-press-.gif"
+  },
+  {
+    "name": "Dumbbell Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Curl On Arm Blaster",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Curl-On-Arm-Blaster.gif"
+  },
+  {
+    "name": "Dumbbell Deadlifts",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "dumbbell-deadlifts.gif"
+  },
+  {
+    "name": "Dumbbell Decline One-Arm Hammer Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Decline-One-Arm-Hammer-Press.gif"
+  },
+  {
+    "name": "Dumbbell Decline Shrug",
+    "muscleGroup": "Traps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Decline-Shrug.gif"
+  },
+  {
+    "name": "Dumbbell Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Fly.gif"
+  },
+  {
+    "name": "Dumbbell Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Front-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Goblet Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Goblet-Squat.gif"
+  },
+  {
+    "name": "Dumbbell Good Morning",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Good-Morning.gif"
+  },
+  {
+    "name": "Dumbbell High Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-High-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Incline Shrug",
+    "muscleGroup": "Traps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Incline-Shrug.gif"
+  },
+  {
+    "name": "Dumbbell Incline T-Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Incline-T-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Incline Two-Arm Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Incline-Two-Arm-Extension.gif"
+  },
+  {
+    "name": "Dumbbell Jump Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Jump-Squat.gif"
+  },
+  {
+    "name": "Dumbbell Kickback",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Kickback.gif"
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Lateral-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Lateral Step-Up",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Lateral-Step-Up.gif"
+  },
+  {
+    "name": "Dumbbell Lateral to Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Lateral-to-Front-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Lunge",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Lunge.gif"
+  },
+  {
+    "name": "Dumbbell Lunges",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "dumbbell-lunges.gif"
+  },
+  {
+    "name": "Dumbbell Lying External Shoulder Rotation",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Lying-External-Shoulder-Rotation.gif"
+  },
+  {
+    "name": "Dumbbell Lying One-Arm Rear Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Lying-One-Arm-Rear-Lateral-Raise.gif"
+  },
+  {
+    "name": "Dumbbell One Arm Reverse Grip Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-One-Arm-Reverse-Grip-Press.gif"
+  },
+  {
+    "name": "Dumbbell One-Arm Shoulder Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-One-Arm-Shoulder-Press.gif"
+  },
+  {
+    "name": "Dumbbell Preacher Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Preacher-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Preacher Hammer Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Preacher-Hammer-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Press-1.gif"
+  },
+  {
+    "name": "Dumbbell Pullover",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Pullover.gif"
+  },
+  {
+    "name": "Dumbbell Pullover On Stability Ball",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Pullover-On-Stability-Ball.gif"
+  },
+  {
+    "name": "Dumbbell Push Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Push-Press.gif"
+  },
+  {
+    "name": "Dumbbell Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Rear Delt Row",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Rear-Delt-Row.gif"
+  },
+  {
+    "name": "Dumbbell Rear Lunge",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Rear-Lunge.gif"
+  },
+  {
+    "name": "Dumbbell Reverse Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Reverse-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Reverse Fly",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Reverse-Fly.gif"
+  },
+  {
+    "name": "Dumbbell Romanian Deadlift",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Romanian-Deadlift.gif"
+  },
+  {
+    "name": "Dumbbell Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Row.gif"
+  },
+  {
+    "name": "Dumbbell Scaption",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Scaption.gif"
+  },
+  {
+    "name": "Dumbbell Scot Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "dumbbell-scot-curl.gif"
+  },
+  {
+    "name": "Dumbbell Scott Hammer Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Scott-Hammer-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Seated Bent Over Rear Delt Row",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Seated-Bent-Over-Rear-Delt-Row.gif"
+  },
+  {
+    "name": "Dumbbell Seated Front and Back Tate Press",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Seated-Front-and-Back-Tate-Press.gif"
+  },
+  {
+    "name": "Dumbbell Seated Gittleson Shrug",
+    "muscleGroup": "Traps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Seated-Gittleson-Shrug.gif"
+  },
+  {
+    "name": "Dumbbell Seated Neutral Wrist Curl",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Seated-Neutral-Wrist-Curl.gif"
+  },
+  {
+    "name": "Dumbbell Shoulder Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Shoulder-Press.gif"
+  },
+  {
+    "name": "Dumbbell Shrug",
+    "muscleGroup": "Traps",
+    "requiresGym": false,
+    "gifUrl": "Dumbbell-Shrug.gif"
+  },
+  {
+    "name": "Dumbbell Side Lying Rear Delt Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Side-Lying-Rear-Delt-Raise.gif"
+  },
+  {
+    "name": "Dumbbell Skull Crusher",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Skull-Crusher.gif"
+  },
+  {
+    "name": "Dumbbell Split Jump",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Split-Jump.gif"
+  },
+  {
+    "name": "Dumbbell Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Squat.gif"
+  },
+  {
+    "name": "Dumbbell Standing Palms In Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Standing-Palms-In-Press.gif"
+  },
+  {
+    "name": "Dumbbell Straight Leg Deadlift",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Straight-Leg-Deadlift.gif"
+  },
+  {
+    "name": "Dumbbell Sumo Deadlift",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "dumbbell-sumo-deadlift.gif"
+  },
+  {
+    "name": "Dumbbell Upright Row",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Upright-Row.gif"
+  },
+  {
+    "name": "Dumbbell Upward Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Upward-Fly.gif"
+  },
+  {
+    "name": "Dumbbell V-up",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-V-up.gif"
+  },
+  {
+    "name": "Dumbbell W-Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-W-Press.gif"
+  },
+  {
+    "name": "Dumbbell Wrist Curl",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "Dumbbell-Wrist-Curl.gif"
+  },
+  {
+    "name": "Dumbeel Step Up",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Dumbeel-Step-Up.gif"
+  },
+  {
+    "name": "Dynamic Chest Stretch",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Dynamic-Chest-Stretch.gif"
+  },
+  {
+    "name": "Elbow Flexion",
+    "muscleGroup": "Biceps",
+    "requiresGym": false,
+    "gifUrl": "elbow-flexion.gif"
+  },
+  {
+    "name": "Elbow Reverse Push-Up",
+    "muscleGroup": "Triceps",
+    "requiresGym": false,
+    "gifUrl": "Elbow-Reverse-Push-Up.gif"
+  },
+  {
+    "name": "Elbow To Knee Twists",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Elbow-To-Knee-Twists.gif"
+  },
+  {
+    "name": "Elliptical Machine",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Elliptical-Machine.gif"
+  },
+  {
+    "name": "Exercise Ball Frog Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Exercise-Ball-Frog-Crunch.gif"
+  },
+  {
+    "name": "Exercise Ball Supine Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": false,
+    "gifUrl": "Exercise-Ball-Supine-Triceps-Extension.gif"
+  },
+  {
+    "name": "EZ Barbell Incline Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "EZ-Barbell-Incline-Triceps-Extension.gif"
+  },
+  {
+    "name": "EZ Bar Underhand Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "EZ-Bar-Underhand-Press.gif"
+  },
+  {
+    "name": "Face Pull",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Face-Pull.gif"
+  },
+  {
+    "name": "Farmers Walk",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Farmers-walk_Cardio.gif"
+  },
+  {
+    "name": "Fast Feet Run",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Fast-Feet-Run.gif"
+  },
+  {
+    "name": "Feet and Ankle Rotation",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Feet-and-Ankle-Rotation.gif"
+  },
+  {
+    "name": "Fish Pose (Matsyasana)",
+    "muscleGroup": "Back",
+    "requiresGym": false,
+    "gifUrl": "Fish-Pose-Matsyasana.gif"
+  },
+  {
+    "name": "Flexor Incline Dumbbell Curls",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Flexor-Incline-Dumbbell-Curls.gif"
+  },
+  {
+    "name": "Floor Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Floor-Crunch.gif"
+  },
+  {
+    "name": "Floor Hyperextension",
+    "muscleGroup": "Back",
+    "requiresGym": false,
+    "gifUrl": "Floor-Hyperextension-1.gif"
+  },
+  {
+    "name": "Foam Roller Calves",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Foam-Roller-Calves.gif"
+  },
+  {
+    "name": "Foam Roller Upper Back",
+    "muscleGroup": "Back",
+    "requiresGym": false,
+    "gifUrl": "Foam-Roller-Upper-Back.gif"
+  },
+  {
+    "name": "Foot and Ankle Stretches",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Foot-and-Ankle-Rotation.gif"
+  },
+  {
+    "name": "Front and Back Neck Stretch",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Front-and-Back-Neck-Stretch.gif"
+  },
+  {
+    "name": "Front Plank with Arm and Leg Lift",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Front-Plank-With-Arm-And-Leg-Lift.gif"
+  },
+  {
+    "name": "Front Plank with Arm Lift",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Front-Plank-with-Arm-Lift.gif"
+  },
+  {
+    "name": "Front Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Front-Pulldown.gif"
+  },
+  {
+    "name": "Front Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "front-squat.gif"
+  },
+  {
+    "name": "Front to Side Plank",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Front-to-Side-Plank.gif"
+  },
+  {
+    "name": "Full Crunch Machine",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Full-Crunch-Machine.gif"
+  },
+  {
+    "name": "Full Range Of Motion Lat Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Full-Range-Of-Motion-Lat-Pulldown.gif"
+  },
+  {
+    "name": "Hack Machine One Leg Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Hack-Machine-One-Leg-Calves-Raise.gif"
+  },
+  {
+    "name": "Hack Squat Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Hack-Squat-Calves-Raise.gif"
+  },
+  {
+    "name": "Half Arnold Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Half-Arnold-Press.gif"
+  },
+  {
+    "name": "Half Kneeling Cable External Rotation",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Half-Kneeling-Cable-External-Rotation.gif"
+  },
+  {
+    "name": "Half Kneeling High Cable Row Rope",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Half-Kneeling-High-Cable-Row-Rope.gif"
+  },
+  {
+    "name": "Half Kneeling Lat Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Half-Kneeling-Lat-Pulldown.gif"
+  },
+  {
+    "name": "Hammer Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Hammer-Curl.gif"
+  },
+  {
+    "name": "Hammer Curl with Resistance Band",
+    "muscleGroup": "Biceps",
+    "requiresGym": false,
+    "gifUrl": "Hammer-Curl-with-Resistance-Band.gif"
+  },
+  {
+    "name": "Hamstrings Lying Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Hamstrings-Lying-Stretch.gif"
+  },
+  {
+    "name": "Hand Gripper",
+    "muscleGroup": "Forearms",
+    "requiresGym": false,
+    "gifUrl": "Hand-Gripper.gif"
+  },
+  {
+    "name": "Hands Bike",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Hands-Bike.gif"
+  },
+  {
+    "name": "Handstand Push Up",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "handstand-push-up.gif"
+  },
+  {
+    "name": "Hanging Knee Raises",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Hanging-Knee-Raises.gif"
+  },
+  {
+    "name": "Hanging Leg Raises",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Hanging-Leg-Raises.gif"
+  },
+  {
+    "name": "Hanging Side Knee Raises",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Hanging-Side-Knee-Raises.gif"
+  },
+  {
+    "name": "Hanging Windshield Wiper",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Hanging-Windshield-Wiper.gif"
+  },
+  {
+    "name": "Hawaiian Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Hawaiian-Squat-exercise.gif"
+  },
+  {
+    "name": "Heel Touch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Heel-Touch.gif"
+  },
+  {
+    "name": "High Cable Crossover",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "High-Cable-Crossover.gif"
+  },
+  {
+    "name": "High Cable Single Arm Bicep Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "High-Cable-Single-Arm-Bicep-Curl.gif"
+  },
+  {
+    "name": "High Knee Run",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "High-Knee-Run.gif"
+  },
+  {
+    "name": "High Knees against Wall",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "High-Knees-against-wall.gif"
+  },
+  {
+    "name": "High Knee Skips",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "High-Knee-Skips_Cardio.gif"
+  },
+  {
+    "name": "High Knee Squat",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "High-Knee-Squat.gif"
+  },
+  {
+    "name": "High Pulley Overhead Tricep Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "High-Pulley-Overhead-Tricep-Extension.gif"
+  },
+  {
+    "name": "Hook Kick (Kickboxing with Boxing Bag)",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Hook-Kick-Kickboxing-with-boxing-bag.gif"
+  },
+  {
+    "name": "Impossible Dips",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Impossible-Dips.gif"
+  },
+  {
+    "name": "Inchworm",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Inchworm.gif"
+  },
+  {
+    "name": "Incline Barbell Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Incline-Barbell-Bench-Press.gif"
+  },
+  {
+    "name": "Incline Barbell Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Incline-Barbell-Row.gif"
+  },
+  {
+    "name": "Incline Cable Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Incline-Cable-Row.gif"
+  },
+  {
+    "name": "Incline Chest Fly Machine",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Incline-Chest-Fly-Machine.gif"
+  },
+  {
+    "name": "Incline Dumbbell Hammer Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Incline-Dumbbell-Hammer-Press.gif"
+  },
+  {
+    "name": "Incline Dumbbell Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Incline-dumbbell-Fly.gif"
+  },
+  {
+    "name": "Incline Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Incline-Dumbbell-Press.gif"
+  },
+  {
+    "name": "Incline Dumbbell Side Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Incline-Dumbbell-Side-Lateral-Raise.gif"
+  },
+  {
+    "name": "Incline Dumbbell Y Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Incline-Dumbbell-Y-Raise.gif"
+  },
+  {
+    "name": "Incline Leg Hip Raise",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Incline-Leg-Hip-Raise.gif"
+  },
+  {
+    "name": "Incline Push-Up",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Incline-Push-Up.gif"
+  },
+  {
+    "name": "Incline Reverse Grip Dumbbell Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Incline-Reverse-Grip-Dumbbell-Row.gif"
+  },
+  {
+    "name": "Incline Treadmill",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Incline-Treadmill.gif"
+  },
+  {
+    "name": "Inner Chest Press Machine",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Inner-Chest-Press-Machine.gif"
+  },
+  {
+    "name": "Inner Thigh Side Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "INNER-THIGH-SIDE-STRETCH.gif"
+  },
+  {
+    "name": "Inverted Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Inverted-Row.gif"
+  },
+  {
+    "name": "Jab Boxing",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Jab-Boxing.gif"
+  },
+  {
+    "name": "Jack Burpees",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Jack-Burpees.gif"
+  },
+  {
+    "name": "Jumping Jack",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Jumping-jack.gif"
+  },
+  {
+    "name": "Jump Rope",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Jump-Rope.gif"
+  },
+  {
+    "name": "Jump Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Jump-Squat.gif"
+  },
+  {
+    "name": "Kettlebell Arnold Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Kettlebell-Arnold-Press.gif"
+  },
+  {
+    "name": "Kettlebell Bent-Over Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Kettlebell-Bent-Over-Row.gif"
+  },
+  {
+    "name": "Kettlebell Chest Press on the Floor",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Kettlebell-Chest-Press-on-the-Floor.gif"
+  },
+  {
+    "name": "Kettlebell Clean and Jerk",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Kettlebell-Clean-and-Jerk.gif"
+  },
+  {
+    "name": "Kettlebell One-Arm Military Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Kettlebell-One-Arm-Military-Press.gif"
+  },
+  {
+    "name": "Kettlebell Pistol Squats",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Kettlebell-Pistol-Squats.gif"
+  },
+  {
+    "name": "Kettlebell Split Snatch",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Kettlebell-Split-Snatch.gif"
+  },
+  {
+    "name": "Kettlebell Swings",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Kettlebell-Swings.gif"
+  },
+  {
+    "name": "Kettlebell Windmill",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Kettlebell-Windmill.gif"
+  },
+  {
+    "name": "Kneeling Cable Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Kneeling-Cable-Crunch.gif"
+  },
+  {
+    "name": "Kneeling Cable Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Kneeling-Cable-Extension.gif"
+  },
+  {
+    "name": "Kneeling High Pulley Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Kneeling-High-Pulley-Row.gif"
+  },
+  {
+    "name": "Kneeling Neck Stretch",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Kneeling-Neck-Stretch.gif"
+  },
+  {
+    "name": "Kneeling Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Kneeling-Push-up.gif"
+  },
+  {
+    "name": "Kneeling Quad Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Kneeling-Quad-Stretch.gif"
+  },
+  {
+    "name": "Kneeling Single Arm High Pulley Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Kneeling-Single-Arm-High-Pulley-Row.gif"
+  },
+  {
+    "name": "Knee Push-Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Knee-Push-Up.gif"
+  },
+  {
+    "name": "Korean Dips",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Korean-Dips.gif"
+  },
+  {
+    "name": "Landmine Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Landmine-Lateral-Raise.gif"
+  },
+  {
+    "name": "Landmine Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Landmine-Press.gif"
+  },
+  {
+    "name": "Lateral Raise Machine",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Lateral-Raise-Machine.gif"
+  },
+  {
+    "name": "Lateral Speed Step",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Lateral-Speed-Step.gif"
+  },
+  {
+    "name": "Lateral Step Up",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Lateral-Step-up.gif"
+  },
+  {
+    "name": "Lat Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Lat-Pulldown.gif"
+  },
+  {
+    "name": "Leaning Cable Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Leaning-Cable-Lateral-Raise.gif"
+  },
+  {
+    "name": "Leaning Single-Arm Dumbbell Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Leaning-Single-Arm-Dumbbell-Lateral-Raise.gif"
+  },
+  {
+    "name": "Leg Curl",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Leg-Curl.gif"
+  },
+  {
+    "name": "Leg Extension",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "LEG-EXTENSION.gif"
+  },
+  {
+    "name": "Leg Press",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Leg-Press.gif"
+  },
+  {
+    "name": "Leg Press Calves Raise",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Leg-Press-Calves-Raise.gif"
+  },
+  {
+    "name": "Leg Raise Dragon Flag",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Leg-Raise-Dragon-Flag.gif"
+  },
+  {
+    "name": "Lever Biceps Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Lever-Biceps-Curl.gif"
+  },
+  {
+    "name": "Lever Cable Rear Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Lever-Cable-Rear-Pulldown.gif"
+  },
+  {
+    "name": "Lever Chest Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Lever-Chest-Press.gif"
+  },
+  {
+    "name": "Lever Crossovers",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Lever-Crossovers.gif"
+  },
+  {
+    "name": "Lever Deadlift",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Lever-Deadlift.gif"
+  },
+  {
+    "name": "Lever Donkey Calves Raise",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Lever-Donkey-Calves-Raise.gif"
+  },
+  {
+    "name": "Lever Gripless Shrug",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Lever-Gripless-Shrug.gif"
+  },
+  {
+    "name": "Lever Incline Chest Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Lever-Incline-Chest-Press.gif"
+  },
+  {
+    "name": "Lever Incline Hammer Chest Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Lever-Incline-Hammer-Chest-Press.gif"
+  },
+  {
+    "name": "Lever Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Lever-Lateral-Raise.gif"
+  },
+  {
+    "name": "Lever Lying Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Lever-Lying-Crunch.gif"
+  },
+  {
+    "name": "Lever Neck Extension (Plate Loaded)",
+    "muscleGroup": "Neck",
+    "requiresGym": true,
+    "gifUrl": "Lever-Neck-Extension-plate-loaded.gif"
+  },
+  {
+    "name": "Lever Neck Right Side Flexion (Plate Loaded)",
+    "muscleGroup": "Neck",
+    "requiresGym": true,
+    "gifUrl": "Lever-Neck-Right-Side-Flexion-plate-loaded.gif"
+  },
+  {
+    "name": "Lever One-Arm Chest Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Lever-One-Arm-Chest-Press.gif"
+  },
+  {
+    "name": "Lever Overhand Triceps Dip",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Lever-Overhand-Triceps-Dip.gif"
+  },
+  {
+    "name": "Lever Preacher Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Lever-Preacher-Curl.gif"
+  },
+  {
+    "name": "Lever Reverse T-Bar Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Lever-Reverse-T-Bar-Row.gif"
+  },
+  {
+    "name": "Lever Seated Calves Raise",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Lever-Seated-Calves-Raise.gif"
+  },
+  {
+    "name": "Lever Seated Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Lever-Seated-Twist.gif"
+  },
+  {
+    "name": "Lever Shoulder Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Lever-Shoulder-Press.gif"
+  },
+  {
+    "name": "Lever Shrug",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Lever-Shrug.gif"
+  },
+  {
+    "name": "Lever Side Hip Abduction",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Lever-Side-Hip-Abduction.gif"
+  },
+  {
+    "name": "Lever Side Hip Adduction",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Lever-Side-Hip-Adduction.gif"
+  },
+  {
+    "name": "Lever Standing Leg Raise",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Lever-Standing-Leg-Raise.gif"
+  },
+  {
+    "name": "Lever T-bar Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Lever-T-bar-Row.gif"
+  },
+  {
+    "name": "Lever Tricep Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Lever-Tricep-Extension.gif"
+  },
+  {
+    "name": "Long Jump Plyometrics",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Long-Jump-Plyometrics.gif"
+  },
+  {
+    "name": "Low Cable Crossover",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Low-Cable-Crossover.gif"
+  },
+  {
+    "name": "L Sit",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "L-Sit.gif"
+  },
+  {
+    "name": "Lunging Straight Leg Calves Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Lunging-Straight-Leg-Calves-Stretch.gif"
+  },
+  {
+    "name": "Lying Cable Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Lying-cable-curl.gif"
+  },
+  {
+    "name": "Lying Cable Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Lying-Cable-Fly.gif"
+  },
+  {
+    "name": "Lying Cable Reverse Fly",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Lying-Cable-Reverse-Fly.gif"
+  },
+  {
+    "name": "Lying Chest Press Machine",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Lying-Chest-Press-Machine.gif"
+  },
+  {
+    "name": "Lying Dumbbell Leg Curl",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Lying-Dumbbell-Leg-Curl.gif"
+  },
+  {
+    "name": "Lying Extension Pullover",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Lying-Extension-Pullover.gif"
+  },
+  {
+    "name": "Lying Glute Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Lying-glute-stretch.gif"
+  },
+  {
+    "name": "Lying High Bench Barbell Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Lying-High-Bench-Barbell-Curl.gif"
+  },
+  {
+    "name": "Lying Knee Raise",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Lying-Knee-Raise.gif"
+  },
+  {
+    "name": "Lying Leg Raise",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Lying-Leg-Raise.gif"
+  },
+  {
+    "name": "Lying Scissor Kick",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Lying-Scissor-Kick.gif"
+  },
+  {
+    "name": "Lying Shoulder Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Lying-Shoulder-Press.gif"
+  },
+  {
+    "name": "Lying Weighted Lateral Neck Flexion",
+    "muscleGroup": "Neck",
+    "requiresGym": true,
+    "gifUrl": "Lying-Weighted-Lateral-Neck-Flexion.gif"
+  },
+  {
+    "name": "Lying Weighted Neck Extension",
+    "muscleGroup": "Neck",
+    "requiresGym": true,
+    "gifUrl": "Lying-Weighted-Neck-Extension.gif"
+  },
+  {
+    "name": "Lying Weighted Neck Flexion",
+    "muscleGroup": "Neck",
+    "requiresGym": true,
+    "gifUrl": "Lying-Weighted-Neck-Flexion.gif"
+  },
+  {
+    "name": "Mountain Climber",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Mountain-climber.gif"
+  },
+  {
+    "name": "Muscle-Up on Vertical Bar",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Muscle-up-vertical-bar.gif"
+  },
+  {
+    "name": "Narrow Grip Wall Push-Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Narrow-Grip-Wall-Push-Up.gif"
+  },
+  {
+    "name": "Navy Seal Burpee",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Navy-Seal-Burpee.gif"
+  },
+  {
+    "name": "Neck Extension Abs",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Neck-Extension-Abs-360x360.png"
+  },
+  {
+    "name": "Neck Flexion Abs",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Neck-Flexion-Stretch-360x360.png"
+  },
+  {
+    "name": "Oblique Floor Crunches",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Oblique-Floor-Crunches.gif"
+  },
+  {
+    "name": "One Arm Decline Cable Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Decline-Cable-Fly.gif"
+  },
+  {
+    "name": "One Arm Barbell Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Barbell-Row-.gif"
+  },
+  {
+    "name": "One Arm Bent Over Cable Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Bent-Over-Cable-Lateral-Raise.gif"
+  },
+  {
+    "name": "One Arm Biceps Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Biceps-Curl.gif"
+  },
+  {
+    "name": "One Arm Biceps Curl 1",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Biceps-Curl-1.gif"
+  },
+  {
+    "name": "One Arm Cable Bicep Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Cable-Bicep-Curl.gif"
+  },
+  {
+    "name": "One Arm Cable Chest Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Cable-Chest-Press.gif"
+  },
+  {
+    "name": "One Arm Cable Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Cable-Curl.gif"
+  },
+  {
+    "name": "One Arm Cable Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "One-arm-Cable-Row.gif"
+  },
+  {
+    "name": "One Arm Chin-Up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Chin-Up.gif"
+  },
+  {
+    "name": "One Arm Dumbbell Upright Row",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Dumbbell-Upright-Row.gif"
+  },
+  {
+    "name": "One Arm Kettlebell Chest Press on the Bench",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Kettlebell-Chest-Press-on-the-Bench.gif"
+  },
+  {
+    "name": "One Arm Kettlebell Snatch",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Kettlebell-Snatch-exercise.gif"
+  },
+  {
+    "name": "One Arm Landmine Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Landmine-Row.gif"
+  },
+  {
+    "name": "One Arm Lying Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Lying-Triceps-Extension.gif"
+  },
+  {
+    "name": "One Arm Pronated Dumbbell Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Pronated-Dumbbell-Triceps-Extension-.gif"
+  },
+  {
+    "name": "One Arm Prone Dumbbell Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Prone-Dumbbell-Curl.gif"
+  },
+  {
+    "name": "One Arm Push-Ups With Support",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "One-Arm-Push-Ups-With-Support.gif"
+  },
+  {
+    "name": "One Arm Reverse Push Down",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "One-Arm-Reverse-Push-Down.gif"
+  },
+  {
+    "name": "One Arm Triceps Pushdown",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "One-arm-triceps-pushdown.gif"
+  },
+  {
+    "name": "Overhead Cable Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "overhead-cable-curl.gif"
+  },
+  {
+    "name": "Overhead Shrug",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "overhead-shrug.gif"
+  },
+  {
+    "name": "Parallel Bar Dip",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "parallel-bar-dip.gif"
+  },
+  {
+    "name": "Pec Deck Fly",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Pec-Deck-Fly.gif"
+  },
+  {
+    "name": "Pike Push Up",
+    "muscleGroup": "Shoulders",
+    "requiresGym": false,
+    "gifUrl": "Pike-Push-up.gif"
+  },
+  {
+    "name": "Pistol Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Pistol-Squat.gif"
+  },
+  {
+    "name": "Plank",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "plank.gif"
+  },
+  {
+    "name": "Plank with Arm and Leg Lift",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Plank-with-Arm-and-Leg-Lift.gif"
+  },
+  {
+    "name": "Plyo Jacks",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Plyo-Jacks.gif"
+  },
+  {
+    "name": "Posterior Tibialis Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Posterior-Tibialis-Stretch.gif"
+  },
+  {
+    "name": "Power Lunge",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Power-Lunge.gif"
+  },
+  {
+    "name": "Power Skips",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Power-Skips.gif"
+  },
+  {
+    "name": "Prone Cervical Extension",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Prone-Cervical-Extension.gif"
+  },
+  {
+    "name": "Prone Incline Biceps Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Prone-Incline-Biceps-Curl.gif"
+  },
+  {
+    "name": "Pull-up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Pull-up.gif"
+  },
+  {
+    "name": "Punches",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Punches.gif"
+  },
+  {
+    "name": "Pushdown",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Pushdown.gif"
+  },
+  {
+    "name": "Push Press 1",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "push-press-1.gif"
+  },
+  {
+    "name": "Push Up with Medicine Ball",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Push-Up-Medicine-Ball.gif"
+  },
+  {
+    "name": "Push-Up Plus",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Push-Up-Plus.gif"
+  },
+  {
+    "name": "Push-up Toe Touch",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Push-up-Toe-Touch.gif"
+  },
+  {
+    "name": "Push Up with Push Up Bars",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Push-up-With-Push-up-Bars.gif"
+  },
+  {
+    "name": "Quarter Sit Up",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Quarter-Sit-up.gif"
+  },
+  {
+    "name": "Reaction Ball Throw (Agility Ball Drill)",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Reaction-Ball-Throw-Agility-Ball-Drill-.gif"
+  },
+  {
+    "name": "Rear Delt Machine Flys",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Rear-Delt-Machine-Flys.gif"
+  },
+  {
+    "name": "Recumbent Exercise Bike",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Recumbent-Exercise-Bike.gif"
+  },
+  {
+    "name": "Resistance Band Bent Over Rear Delt Fly",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Resistance-Band-Bent-Over-Rear-Delt-Fly.gif"
+  },
+  {
+    "name": "Resistance Band Foot External Rotation",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Resistance-Band-Foot-External-Rotation.gif"
+  },
+  {
+    "name": "Resistance Band Pull Apart",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Resistance-Band-Pull-Apart.gif"
+  },
+  {
+    "name": "Reverse Crunch 1",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Reverse-Crunch-1.gif"
+  },
+  {
+    "name": "Reverse Grip Barbell Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Reverse-Grip-Barbell-Row.gif"
+  },
+  {
+    "name": "Reverse Grip Dumbbell Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Reverse-Grip-Dumbbell-Bench-Press.gif"
+  },
+  {
+    "name": "Reverse Grip EZ Bar Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Reverse-Grip-EZ-Bar-Curl.gif"
+  },
+  {
+    "name": "Reverse Grip Incline Dumbbell Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Reverse-Grip-Incline-Dumbbell-Press.gif"
+  },
+  {
+    "name": "Reverse Grip Machine Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Reverse-Grip-Machine-Row.gif"
+  },
+  {
+    "name": "Reverse Grip Pull-up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Reverse-grip-Pull-up.gif"
+  },
+  {
+    "name": "Reverse Grip Pushdown",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Reverse-Grip-Pushdown.gif"
+  },
+  {
+    "name": "Reverse Lat Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Reverse-Lat-Pulldown.gif"
+  },
+  {
+    "name": "Reverse Lunge Knee",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Reverse-Lunge-Knee.gif"
+  },
+  {
+    "name": "Reverse Plank",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Reverse-plank.gif"
+  },
+  {
+    "name": "Reverse Push-up",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Reverse-Push-up.gif"
+  },
+  {
+    "name": "Reverse Wrist Curl",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "Reverse-Wrist-Curl.gif"
+  },
+  {
+    "name": "Reverse Wrist Stretch",
+    "muscleGroup": "Forearms",
+    "requiresGym": false,
+    "gifUrl": "reverse-Wrist-Stretch.gif"
+  },
+  {
+    "name": "Riding Outdoor Bicycle",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Riding-Outdoor-Bicycle.gif"
+  },
+  {
+    "name": "Right Cross Boxing",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Right-Cross-Boxing.gif"
+  },
+  {
+    "name": "Right Uppercut Boxing",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Right-Uppercut-Boxing.gif"
+  },
+  {
+    "name": "Ring Inverted Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Ring-Inverted-Row.gif"
+  },
+  {
+    "name": "Roll Rhomboids",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Roll-Rhomboids.gif"
+  },
+  {
+    "name": "Rope Straight Arm Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Rope-Straight-Arm-Pulldown.gif"
+  },
+  {
+    "name": "Rope Bicep Curls",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "rope-bicep-curls.gif"
+  },
+  {
+    "name": "Rope Climb",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Rope-Climb.gif"
+  },
+  {
+    "name": "Rope Pushdown",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Rope-Pushdown.gif"
+  },
+  {
+    "name": "Rotating Neck Stretch",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Rotating-Neck-Stretch.gif"
+  },
+  {
+    "name": "Rowing Machine",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Rowing-Machine.gif"
+  },
+  {
+    "name": "Run",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Run.gif"
+  },
+  {
+    "name": "Run in Place",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Run-in-Place.gif"
+  },
+  {
+    "name": "Run in Place Exercise",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Run-in-Place-exercise.gif"
+  },
+  {
+    "name": "Russian Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Russian-Twist.gif"
+  },
+  {
+    "name": "Scapula Dips",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Scapula-Dips.gif"
+  },
+  {
+    "name": "Scapula Pull Up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Scapula-Pull-up.gif"
+  },
+  {
+    "name": "Scapular Protraction and Retraction",
+    "muscleGroup": "Back",
+    "requiresGym": false,
+    "gifUrl": "Scapular-Protraction-and-Retraction.gif"
+  },
+  {
+    "name": "Scott Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "scott-press.gif"
+  },
+  {
+    "name": "Seated Adductor Groin Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Seated-Adductor-Groin-Stretch.gif"
+  },
+  {
+    "name": "Seated Ballerina",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Seated-Ballerina.gif"
+  },
+  {
+    "name": "Seated Behind The Neck Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Seated-Behind-the-Neck-Press.gif"
+  },
+  {
+    "name": "Seated Bench Leg Pull In",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Seated-Bench-Leg-Pull-in.gif"
+  },
+  {
+    "name": "Seated Bicep Curl With Resistance Band",
+    "muscleGroup": "Biceps",
+    "requiresGym": false,
+    "gifUrl": "Seated-Bicep-Curl-With-Resistance-Band.gif"
+  },
+  {
+    "name": "Seated Biceps Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "seated-biceps-curl.gif"
+  },
+  {
+    "name": "Seated Cable Rope Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Seated-Cable-Rope-Row.gif"
+  },
+  {
+    "name": "Seated Cable Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Seated-Cable-Row.gif"
+  },
+  {
+    "name": "Seated Calves Press on Leg Press Machine",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Seated-Calves-Press-on-Leg-Press-Machine.gif"
+  },
+  {
+    "name": "Seated Close Grip Concentration Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Seated-close-grip-concentration-curl.gif"
+  },
+  {
+    "name": "Seated Dumbbell Alternating Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "seated-dumbbell-alternating-curl.gif"
+  },
+  {
+    "name": "Seated Dumbbell Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "seated-dumbbell-front-raise.gif"
+  },
+  {
+    "name": "Seated Dumbbell Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Seated-Dumbbell-Lateral-Raise.gif"
+  },
+  {
+    "name": "Seated Dumbbell Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Seated-Dumbbell-Triceps-Extension.gif"
+  },
+  {
+    "name": "Seated EZ Bar Overhead Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Seated-EZ-Bar-Overhead-Triceps-Extension.gif"
+  },
+  {
+    "name": "Seated Hammer Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Seated-Hammer-Curl.gif"
+  },
+  {
+    "name": "Seated Hamstring Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Seated-Hamstring-Stretch.gif"
+  },
+  {
+    "name": "Seated Incline Dumbbell Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Seated-Incline-Dumbbell-Curl.gif"
+  },
+  {
+    "name": "Seated Leg Curl",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Seated-Leg-Curl.gif"
+  },
+  {
+    "name": "Seated Oblique Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Seated-Oblique-Twist.gif"
+  },
+  {
+    "name": "Seated One-Arm Dumbbell Triceps Extension",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Seated-One-Arm-Dumbbell-Triceps-Extension.gif"
+  },
+  {
+    "name": "Seated Rear Lateral Dumbbell Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Seated-Rear-Lateral-Dumbbell-Raise.gif"
+  },
+  {
+    "name": "Seated Row Machine",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Seated-Row-Machine.gif"
+  },
+  {
+    "name": "Seated Scapular Retraction Exercise",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Seated-Scapular-Retraction-Exercise.gif"
+  },
+  {
+    "name": "Seated Side Crunches",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Seated-Side-Crunches.gif"
+  },
+  {
+    "name": "Seated Straight Leg Calves Stretch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Seated-Straight-Leg-Calves-Stretch.gif"
+  },
+  {
+    "name": "Seated Zottman Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Seated-Zottman-Curl.gif"
+  },
+  {
+    "name": "Serratus Wall Slide With Foam Roller",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Serratus-Wall-Slide-With-Foam-Roller.gif"
+  },
+  {
+    "name": "Shadow Boxing Workout",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "shadow-boxing-workout.gif"
+  },
+  {
+    "name": "Short Stride Run",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Short-Stride-Run.gif"
+  },
+  {
+    "name": "Shotgun Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "shotgun-row.gif"
+  },
+  {
+    "name": "Shoulder Stretch Behind Back",
+    "muscleGroup": "Shoulders",
+    "requiresGym": false,
+    "gifUrl": "Shoulder-Stretch-Behind-Back.gif"
+  },
+  {
+    "name": "Side Bridge",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Side-Bridge.gif"
+  },
+  {
+    "name": "Side Lunge Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Side-Lunge-Stretch.gif"
+  },
+  {
+    "name": "Side Neck Stretch",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Side-Neck-Stretch.gif"
+  },
+  {
+    "name": "Side Plank",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Side-Plank-1-360x360.png"
+  },
+  {
+    "name": "Side Push Neck Stretch",
+    "muscleGroup": "Neck",
+    "requiresGym": false,
+    "gifUrl": "Side-Push-Neck-Stretch.gif"
+  },
+  {
+    "name": "Side Shuttle",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Side-Shuttle.gif"
+  },
+  {
+    "name": "Single Leg Hip Thrust Jump",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Single-Leg-Hip-Thrust-Jump.gif"
+  },
+  {
+    "name": "Single Arm Cable Crossover",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Single-Arm-Cable-Crossover.gif"
+  },
+  {
+    "name": "Single Arm Circles",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Single-Arm-Circles.gif"
+  },
+  {
+    "name": "Single Arm Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Single-Arm-Push-up.gif"
+  },
+  {
+    "name": "Single-Arm Reverse-Grip Cable Bicep Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Single-Arm-Reverse-Grip-Cable-Bicep-Curl.gif"
+  },
+  {
+    "name": "Single Calves Raise on Leg Press Machine",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Single-Calves-Raise-on-Leg-Press-Machine.gif"
+  },
+  {
+    "name": "Single Dumbbell Close Grip Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Single-Dumbbell-Close-grip-Press.gif"
+  },
+  {
+    "name": "Single Dumbbell Spider Hammer Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Single-Dumbbell-Spider-Hammer-Curl.gif"
+  },
+  {
+    "name": "Single Heel Drop Calves Stretch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Single-Heel-Drop-Calves-Stretch.gif"
+  },
+  {
+    "name": "Single Leg Box Jump",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Single-Leg-Box-Jump.gif"
+  },
+  {
+    "name": "Single Leg Broad Jump",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Single-Leg-Broad-Jump.gif"
+  },
+  {
+    "name": "Single Leg Calves Raises",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Single-Leg-Calves-Raises.gif"
+  },
+  {
+    "name": "Single Leg Calves Stretch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Single-Leg-Calves-Stretch.gif"
+  },
+  {
+    "name": "Single Leg Donkey Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Single-Leg-Donkey-Calves-Raise.gif"
+  },
+  {
+    "name": "Sit Ups",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Sit-ups.gif"
+  },
+  {
+    "name": "Skater",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Skater.gif"
+  },
+  {
+    "name": "Ski Step",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Ski-Step.gif"
+  },
+  {
+    "name": "Sled Hack Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Sled-Hack-Squat.gif"
+  },
+  {
+    "name": "Smith Machine Behind Neck Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Smith-Machine-Behind-Neck-Press.gif"
+  },
+  {
+    "name": "Smith Machine Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Smith-Machine-Bench-Press.gif"
+  },
+  {
+    "name": "Smith Machine Bent Over Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Smith-Machine-Bent-Over-Row.gif"
+  },
+  {
+    "name": "Smith Machine Decline Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Smith-Machine-Decline-Bench-Press.gif"
+  },
+  {
+    "name": "Smith Machine Good Morning",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Smith-Machine-Good-Morning.gif"
+  },
+  {
+    "name": "Smith Machine Hex Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Smith-Machine-Hex-Press.gif"
+  },
+  {
+    "name": "Smith Machine Incline Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Smith-Machine-Incline-Bench-Press.gif"
+  },
+  {
+    "name": "Smith Machine Shoulder Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Smith-Machine-Shoulder-Press.gif"
+  },
+  {
+    "name": "Smith Machine Shrug",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "smith-machine-shrug.gif"
+  },
+  {
+    "name": "Snap Jumps",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "SNAP-JUMPS.gif"
+  },
+  {
+    "name": "Sphinx Stretch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Sphinx-Stretch.gif"
+  },
+  {
+    "name": "Spider Plank",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Spider-Plank.gif"
+  },
+  {
+    "name": "Split Jacks",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Split-Jacks.gif"
+  },
+  {
+    "name": "Split Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Split-Squat.gif"
+  },
+  {
+    "name": "Sprint",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "sprint.gif"
+  },
+  {
+    "name": "Squat Hold Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Squat-Hold-Calves-Raise.gif"
+  },
+  {
+    "name": "Squat Tuck Jump",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Squat-Tuck-Jump.gif"
+  },
+  {
+    "name": "Stability Ball Decline Push-Ups",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "stability-ball-decline-push-ups.gif"
+  },
+  {
+    "name": "Stability Ball Knee Tuck",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Stability-Ball-Knee-Tuck.gif"
+  },
+  {
+    "name": "Stability Ball Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "stability-ball-push-up.gif"
+  },
+  {
+    "name": "Standing Alternating Dumbbell Shoulder Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Standing-Alternating-Dumbbell-Shoulder-Press.gif"
+  },
+  {
+    "name": "Standing Barbell Calves Raise",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Standing-Barbell-Calves-Raise.gif"
+  },
+  {
+    "name": "Standing Barbell Close Grip Military Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Standing-Barbell-Close-Grip-Military-Press.gif"
+  },
+  {
+    "name": "Standing Barbell Concentration Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Standing-Barbell-Concentration-Curl.gif"
+  },
+  {
+    "name": "Standing Barbell Triceps Extension",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Standing-Barbell-Triceps-Extension.gif"
+  },
+  {
+    "name": "Standing Cable Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Standing-Cable-Crunch.gif"
+  },
+  {
+    "name": "Standing Cable High-To-Low Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Standing-Cable-High-To-Low-Twist.gif"
+  },
+  {
+    "name": "Standing Cable Low-to-High Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Standing-Cable-low-to-high-Twist.gif"
+  },
+  {
+    "name": "Standing Cable Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "standing-cable-twist.gif"
+  },
+  {
+    "name": "Standing Calves Raise",
+    "muscleGroup": "Calves",
+    "requiresGym": true,
+    "gifUrl": "Standing-Calves-Raise.gif"
+  },
+  {
+    "name": "Standing Cross Leg Hamstring Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Standing-Cross-Leg-Hamstring-Stretch.gif"
+  },
+  {
+    "name": "Standing Dorsiflexion",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Standing-Dorsiflexion.gif"
+  },
+  {
+    "name": "Standing Dumbbell Overhead Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Standing-Dumbbell-Overhead-Press.gif"
+  },
+  {
+    "name": "Standing Gastrocnemius Calves Stretch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Standing-Gastrocnemius-Calves-Stretch.gif"
+  },
+  {
+    "name": "Standing Hamstring Stretch",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Standing-Hamstring-Stretch.gif"
+  },
+  {
+    "name": "Standing Leg Circles",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Standing-Leg-Circles.gif"
+  },
+  {
+    "name": "Standing Medicine Ball Chest Pass",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Standing-Medicine-Ball-Chest-Pass.gif"
+  },
+  {
+    "name": "Standing One-Arm Chest Stretch",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Standing-one-arm-chest-stretch.gif"
+  },
+  {
+    "name": "Standing Reach-Up Back Rotation Stretch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Standing-Reach-Up-Back-rotation-Stretch.gif"
+  },
+  {
+    "name": "Standing Reverse Shoulder Stretch",
+    "muscleGroup": "Shoulders",
+    "requiresGym": false,
+    "gifUrl": "Standing-Reverse-Shoulder-Stretch.gif"
+  },
+  {
+    "name": "Standing Rotation",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Standing-Rotation.gif"
+  },
+  {
+    "name": "Standing Side Bend Stretch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Standing-Side-Bend-Stretch.gif"
+  },
+  {
+    "name": "Standing Single-Arm Upright Row",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Standing-Single-Arm-Upright-Row.gif"
+  },
+  {
+    "name": "Standing Smith Machine Shoulder Press",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Standing-Smith-Machine-Shoulder-Press.gif"
+  },
+  {
+    "name": "Standing Toe Flexor Stretch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Standing-Toe-Flexor-Stretch.gif"
+  },
+  {
+    "name": "Standing Toe Touch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Standing-Toe-Touch.gif"
+  },
+  {
+    "name": "Standing Toe Up Achilles Stretch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Standing-Toe-Up-Achilles-Stretch.gif"
+  },
+  {
+    "name": "Standing Wall Calves Stretch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Standing-Wall-Calves-Stretch.gif"
+  },
+  {
+    "name": "Static Lunge",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Static-Lunge.gif"
+  },
+  {
+    "name": "Stationary Bike Run",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Stationary-Bike-Run.gif"
+  },
+  {
+    "name": "Step Up",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Step-up.gif"
+  },
+  {
+    "name": "Step Up Opposite Elbow to Knee Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Step-Up-Opposite-Elbow-to-Knee-Twist.gif"
+  },
+  {
+    "name": "Straight Bar Dip",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Straight-Bar-Dip.gif"
+  },
+  {
+    "name": "Sumo Plie Dumbbell Squat",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Sumo-Plie-Dumbbell-Squat.gif"
+  },
+  {
+    "name": "Superman Exercise",
+    "muscleGroup": "Back",
+    "requiresGym": false,
+    "gifUrl": "Superman-exercise.gif"
+  },
+  {
+    "name": "Svend Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Svend-Press.gif"
+  },
+  {
+    "name": "Swimming",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Swimming.gif"
+  },
+  {
+    "name": "Swiss Ball Rollout",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "swiss-ball-rollout.gif"
+  },
+  {
+    "name": "Table Inverted Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Table-Inverted-Row.gif"
+  },
+  {
+    "name": "T Bar Row",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "T-Bar-Row.gif"
+  },
+  {
+    "name": "T Cross Sit Up",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "T-Cross-Sit-up.gif"
+  },
+  {
+    "name": "Teaser Pilates",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Teaser-Pilates.gif"
+  },
+  {
+    "name": "The Box Jump",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "The-Box-Jump.gif"
+  },
+  {
+    "name": "Toe Extensor Stretch",
+    "muscleGroup": "Calves",
+    "requiresGym": false,
+    "gifUrl": "Toe-Extensor-Stretch.gif"
+  },
+  {
+    "name": "Toes to Bar",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Toes-to-Bar.gif"
+  },
+  {
+    "name": "Treadmill",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Treadmill-.gif"
+  },
+  {
+    "name": "Triceps Extension Machine",
+    "muscleGroup": "Triceps",
+    "requiresGym": true,
+    "gifUrl": "Triceps-Extension-Machine.gif"
+  },
+  {
+    "name": "Triceps Dips",
+    "muscleGroup": "Triceps",
+    "requiresGym": false,
+    "gifUrl": "Triceps-Dips.gif"
+  },
+  {
+    "name": "Triceps Dips on Floor",
+    "muscleGroup": "Triceps",
+    "requiresGym": false,
+    "gifUrl": "Triceps-Dips-on-Floor.gif"
+  },
+  {
+    "name": "Triceps Stretch",
+    "muscleGroup": "Triceps",
+    "requiresGym": false,
+    "gifUrl": "Triceps-Stretch.gif"
+  },
+  {
+    "name": "Tuck Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Tuck-Crunch.gif"
+  },
+  {
+    "name": "Tuck Jump",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Tuck-Jump.gif"
+  },
+  {
+    "name": "Twisting Hyperextension",
+    "muscleGroup": "Back",
+    "requiresGym": false,
+    "gifUrl": "Twisting-Hyperextension.gif"
+  },
+  {
+    "name": "Two Arm Cable Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Two-Arm-Cable-Front-Raise.gif"
+  },
+  {
+    "name": "Two Arm Cable Lateral Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Two-Arm-Cable-Lateral-Raise.gif"
+  },
+  {
+    "name": "Two-Arm Dumbbell Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Two-Arm-Dumbbell-Front-Raise.gif"
+  },
+  {
+    "name": "Two Dumbbell Preacher Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Two-dumbbell-preacher-curl.gif"
+  },
+  {
+    "name": "Upavistha Konasana",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "Upavistha-Konasana.gif"
+  },
+  {
+    "name": "Upper Back Stretch",
+    "muscleGroup": "Back",
+    "requiresGym": false,
+    "gifUrl": "Upper-Back-Stretch.gif"
+  },
+  {
+    "name": "Upside Down Pull Up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Upside-Down-Pull-up.gif"
+  },
+  {
+    "name": "V Bar Lat Pulldown",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "V-bar-Lat-Pulldown.gif"
+  },
+  {
+    "name": "Vertical Mountain Climber",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Vertical-Mountain-Climber.gif"
+  },
+  {
+    "name": "Vibrate Plate Standing",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Vibrate-Plate-Standing.gif"
+  },
+  {
+    "name": "V Up Down with Stability Ball",
+    "muscleGroup": "Abs",
+    "requiresGym": false,
+    "gifUrl": "V-Up-Down-with-Stability-ball.gif"
+  },
+  {
+    "name": "Waiter Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "waiter-curl.gif"
+  },
+  {
+    "name": "Walking",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Walking.gif"
+  },
+  {
+    "name": "Walking High Knee Lunges",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Walking-High-Knee-Lunges.gif"
+  },
+  {
+    "name": "Walking on Stepmill",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Walking-on-Stepmill.gif"
+  },
+  {
+    "name": "Walk Wave Machine",
+    "muscleGroup": "Cardio",
+    "requiresGym": true,
+    "gifUrl": "Walk-Wave-Machine.gif"
+  },
+  {
+    "name": "Wall Push Ups",
+    "muscleGroup": "Chest",
+    "requiresGym": false,
+    "gifUrl": "Wall-Push-ups.gif"
+  },
+  {
+    "name": "Wall Sit",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Wall-Sit-238x360.png"
+  },
+  {
+    "name": "Wall Supported Handstand Push-up",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "wall-supported-handstand-push-up.gif"
+  },
+  {
+    "name": "Water Bottle Hammer Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": false,
+    "gifUrl": "Water-Bottle-Hammer-Curl.gif"
+  },
+  {
+    "name": "Weighted Crunch",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Crunch.gif"
+  },
+  {
+    "name": "Weighted Donkey Calves Raise",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Donkey-Calves-Raise.gif"
+  },
+  {
+    "name": "Weighted Front Plank",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Front-Plank.gif"
+  },
+  {
+    "name": "Weighted Hanging Knee Raises",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "weighted-hanging-knee-raises.gif"
+  },
+  {
+    "name": "Weighted Lying Neck Extension",
+    "muscleGroup": "Neck",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Lying-Neck-Extension.gif"
+  },
+  {
+    "name": "Weighted Lying Neck Flexion",
+    "muscleGroup": "Neck",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Lying-Neck-Flexion.gif"
+  },
+  {
+    "name": "Weighted Lying Twist",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "weighted-lying-twist.gif"
+  },
+  {
+    "name": "Weighted Neck Harness Extension",
+    "muscleGroup": "Neck",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Neck-Harness-Extension.gif"
+  },
+  {
+    "name": "Weighted One Arm Pull Up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Weighted-One-Arm-Pull-up.gif"
+  },
+  {
+    "name": "Weighted Pull Up",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Pull-up.gif"
+  },
+  {
+    "name": "Weighted Push Up",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Push-up.gif"
+  },
+  {
+    "name": "Weighted Round Arm",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "weighted-round-arm.gif"
+  },
+  {
+    "name": "Weighted Seated Calves Raise",
+    "muscleGroup": "Legs",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Seated-Calves-Raise.gif"
+  },
+  {
+    "name": "Weighted Side Bend on Stability Ball",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Side-Bend-on-stability-ball.gif"
+  },
+  {
+    "name": "Weighted Sit Ups",
+    "muscleGroup": "Abs",
+    "requiresGym": true,
+    "gifUrl": "weightedsitups.gif"
+  },
+  {
+    "name": "Weighted Wrist Curl",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "Weighted-Wrist-Curl.gif"
+  },
+  {
+    "name": "Weight Plate Front Raise",
+    "muscleGroup": "Shoulders",
+    "requiresGym": true,
+    "gifUrl": "Weight-Plate-Front-Raise-1.gif"
+  },
+  {
+    "name": "Wheel Run",
+    "muscleGroup": "Cardio",
+    "requiresGym": false,
+    "gifUrl": "Wheel-Run.gif"
+  },
+  {
+    "name": "Wide Grip Alternate Barbell Bent Over Row Plus",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Wide-Grip-Alternate-Barbell-Bent-Over-Row-Plus.gif"
+  },
+  {
+    "name": "Wide Grip Barbell Bench Press",
+    "muscleGroup": "Chest",
+    "requiresGym": true,
+    "gifUrl": "Wide-Grip-Barbell-Bench-Press.gif"
+  },
+  {
+    "name": "Wide Grip Barbell Bent Over Row Plus",
+    "muscleGroup": "Back",
+    "requiresGym": true,
+    "gifUrl": "Wide-Grip-Barbell-Bent-Over-Row-Plus.gif"
+  },
+  {
+    "name": "Wrist Circles Stretch",
+    "muscleGroup": "Forearms",
+    "requiresGym": false,
+    "gifUrl": "Wrist-Circles-Stretch.gif"
+  },
+  {
+    "name": "Wrist Roller",
+    "muscleGroup": "Forearms",
+    "requiresGym": true,
+    "gifUrl": "wrist-roller.gif"
+  },
+  {
+    "name": "Wrist Stretch",
+    "muscleGroup": "Forearms",
+    "requiresGym": false,
+    "gifUrl": "Wrist-Stretch.gif"
+  },
+  {
+    "name": "Wrist Ulnar Deviator And Extensor Stretch",
+    "muscleGroup": "Forearms",
+    "requiresGym": false,
+    "gifUrl": "Wrist-Ulnar-Deviator-And-Extensor-Stretch.gif"
+  },
+  {
+    "name": "Z Bar Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Z-Bar-Curl.gif"
+  },
+  {
+    "name": "Z Bar Preacher Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "Z-Bar-Preacher-Curl.gif"
+  },
+  {
+    "name": "Zig Zag Hops Plyometric",
+    "muscleGroup": "Legs",
+    "requiresGym": false,
+    "gifUrl": "Zig-Zag-Hops-Plyometric.gif"
+  },
+  {
+    "name": "Zottman Curl",
+    "muscleGroup": "Biceps",
+    "requiresGym": true,
+    "gifUrl": "zottman-curl.gif"
+  }
+
+]

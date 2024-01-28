@@ -1,0 +1,54 @@
+﻿/*CSS for the divs inside grid container*/
+.box-index {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    background-color: #0A84FF;
+    border-radius: 2%;
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0,0,0,0.59);
+    height: 80vh;
+}
+
+/*CSS for when hovering over the grid container*/
+.box-index:hover {
+    background-color: #0A84FF;
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0,0,0,0.59);
+    cursor: pointer;
+}
+
+.row-index {
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #1c1c1c;
+}
+
+.banner {
+    background-color: #3a3a3c;
+    border-radius: 0.75rem;
+    border-style: solid;
+    border-color: #0a84ff;
+    box-shadow: black 0 0.4em 0.5rem 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bolder;
+    max-height: 35vh;
+    min-width: 8rem;
+}
+
+.banner:hover {
+    background-color: #2C2C2E;
+    cursor: pointer;
+}
+
+.menuIcon {
+    max-height: 20vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+

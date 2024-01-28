@@ -1,0 +1,100 @@
+﻿@using trainer.Controllers
+@model Routine 
+
+@{
+    ViewBag.Title = "My Workouts";
+    Layout = "_Layout";
+}
+
+
+
+<div class="col-md-8 exerciseList m-auto justify-content-between">
+    <div class="d-flex align-items-center justify-content-center">   
+        @*Back button*@
+        
+        <form asp-action="@ViewBag.View" asp-controller="Routines">
+            <button type="submit" id="backBtn" class="d-flex " style="background-color: transparent; border: none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="white" class="bi bi-box-arrow-left" viewBox="0 1.5 16 16">
+                    <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                    <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                </svg>
+            </button>
+        </form>
+
+        
+        <h1 style="color: white" class="scaleDownSoft"> @Model.Name </h1>
+    </div>
+    
+    @*Holds a list of the days of the week*@
+    @{ 
+        var daysOfWeek = Enum.GetValues(typeof(DayOfWeek)).Cast<DayOfWeek>().ToList();
+    }
+    
+    @foreach (var day in daysOfWeek)
+    {
+        var workout = Model.RoutineHasWorkouts.FirstOrDefault(w => w.DayOfWeek == day); // Gets the workout for the current day of the week
+
+        if (workout != null)
+        {
+            <div class="row align-items-center justify-content-center exerciseListItem">
+                <div class="col-md-8 col-10 d-flex justify-content-between align-items-center exerciseListInfo">
+                    <div>
+                        <h2 style="color: white"> @workout.Workout.Name </h2>
+                    </div>
+                    @*Exercise dropdown*@
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-caret-down exerciseDropdownArrow" viewBox="0 -1 16 16">
+                            <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                @*Shows the exercises in that workout*@
+                <div class="col-md-8 col-10 row">
+                    @if (workout.Workout.WorkoutHasExercises.Count == 0)
+                    {
+                        <div class="d-none justify-content-between exerciseDropdown">
+                            <div><h5 style="color: white">There are no exercises in this workout</h5></div>
+                        </div>
+                    }
+                    else
+                    {
+                        @foreach (var workoutHasExercise in workout.Workout.WorkoutHasExercises)
+                        {
+                            <div class="d-none justify-content-between position-relative exerciseDropdown" style="padding-top: 1.2rem;">
+                                <div style="color: white">@workoutHasExercise.Exercise.Name</div>
+                                <div><h5 style="color: white">@workoutHasExercise.Sets Sets</h5></div>
+                                <div class="position-absolute top-0 end-0" style="margin-right: 0.3rem">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="white" class="exerciseInfo" viewBox="0 0 16 16" data-gif-url="@workoutHasExercise.Exercise.GifUrl">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l-.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="row align-items-center justify-content-center exerciseListItem">
+                <div class="col-md-8 col-10 d-flex justify-content-between align-items-center exerciseListInfo">
+                    <div>
+                        <h2 style="color: white"> Rest Day </h2>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+
+            
+</div>
+
+@*Modal for showing exercise gif*@
+<div id="modal1" class="modal">
+    <img class="modal-content" id="img01">
+</div>
+
+
+

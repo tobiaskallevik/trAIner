@@ -1,0 +1,78 @@
+.min-w-500 {
+    min-width: 500px;
+}
+
+.adminStats {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: white;
+    margin: 1rem;
+    background-color: #3a3a3c;
+    border-radius: 0.75rem;
+    box-shadow: black 0 0.2em 0.5rem 0;
+}
+
+.adminPageBanner {
+    background-color: #3a3a3c;
+    border-radius: 0.75rem;
+    border-style: solid;
+    border-color: #0a84ff;
+    box-shadow: black 0 0.4em 0.5rem 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin: 1.5rem;
+    max-width: 50vw;
+}
+
+.adminPageContainer {
+    min-height: 90vh;
+}
+
+.adminPageContainerBig {
+    min-height: 90vh;
+}
+
+.adminPageBanner:hover {
+    background-color: #2C2C2E;
+    cursor: pointer;
+}
+
+.adminIcons {
+    max-height: 23vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.manageExercisesAdmin {
+    padding-top: 15rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .adminIcons {
+        max-height: 10vh;
+    }
+
+    .adminPageContainer, .adminPageContainerBig {
+        min-height: 0vh;
+    }
+    
+    .adminPageBanner {
+        max-height: 30vh;
+        min-width: 70vw;
+        margin-bottom: 1rem;
+    }
+
+    .manageExercisesAdmin {
+        padding-top: 0;
+    }
+
+    .ban-action-button, .admin-action-button{
+        font-size: 0.6rem;
+        font-family: 'Poppins', sans-serif;
+        height: 3rem;
+        text-shadow: black 0.1rem 0.01em 0;
+    }
+}

@@ -1,0 +1,86 @@
+﻿@model List<trainer.Models.Exercise>
+
+@{
+    ViewBag.Title = "Exercises";
+    Layout = "_Layout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-2 col-sm-4  d-flex gap-2 dropdown justify-content-center" style="margin-top: 1rem;">
+        @*Filter menu for filtering by muscle group*@
+        <h3 style="margin-top: 2%; color: white;">Filter:</h3>
+        <select class="dropdown-toggle col-8 muscleGroupFilter" id="muscleGroupFilter" name="MuscleGroupFilter">
+            <option>Show All</option>
+            @foreach (var muscleGroup in Model.Select(e => e.MuscleGroup).Distinct().OrderBy(e => e))
+            {
+                <option>@muscleGroup</option>
+            }
+        </select>
+
+        @*Back button to go back to workout*@
+        <form asp-action="Edit" asp-controller="Workouts" method="get" asp-route-id="@ViewBag.Workout.Id">
+            <button type="submit" class="btn btn-primary" style="width: 3rem; height: 3rem; padding-left: 0.65rem">Exit</button>
+        </form>
+    </div>
+</div>
+
+<div class="row p-0 justify-content-center">
+    <div class="col-lg-6 mt-4">
+        <input type="text" id="exerciseSearch" placeholder="Search for exercise" class="form-control" style="font-size: 1.5rem;"/>
+    </div>
+</div>
+    
+<div class="col-lg-6 mx-auto" id="addExerciseToWorkout">
+    @*Lists the exercises*@
+    @foreach (var exercises in Model.OrderBy(e => e.Name))
+    {
+        <div class="exerciseContainer" data-muscle-group="@exercises.MuscleGroup" data-exercise-name="@exercises.Name.ToLower()">
+            <div class="card-body d-flex justify-content-between position-relative addExerciseToWorkoutItem">
+                <div class="position-absolute top-0 start-0" style="margin-left: 0.3rem ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="currentColor" class="exerciseInfo" viewBox="0 0 16 16" data-gif-url="@exercises.GifUrl">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l-.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                    </svg>
+                </div>
+
+                <div class="d-flex align-items-center gap-2 col-md-8 col-4">
+                    <h5 style="margin-top: 0.5rem;">@exercises.Name</h5>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    @*Info SVG. When presses it displays the exercises GIF*@
+
+
+                    @*Input for adding exercise with sets*@
+                    <form asp-action="AddExerciseToWorkout" asp-controller="Workouts" method="post" class="d-flex align-items-center gap-2">
+                        <input type="hidden" name="workoutId" value="@ViewBag.Workout.Id"/>
+                        <input type="hidden" name="exerciseId" value="@exercises.Id"/>
+                        <label for="sets" class="mr-2">Sets</label>
+                        <div class="form-group mb-0 mr-2">
+                            <select class="form-control" id="sets" name="sets">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+@*Modal for showing exercise gif*@
+<div id="modal1" class="modal">
+    <img class="modal-content" id="img01">
+</div>
+

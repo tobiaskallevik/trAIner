@@ -1,0 +1,122 @@
+@using System.Security.Claims
+@model IEnumerable<UserViewModel>
+
+@{
+    ViewBag.Title = "Manage Users";
+    Layout = "_Layout";
+}
+
+<div class="row">
+    
+
+    
+    <div class="col-6 workoutList d-flex justify-content-center align-items-center m-auto gap-2">
+        @*Back button*@
+        <a asp-action="Index" asp-controller="Admin" style="background-color: transparent; border: none;" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="white" class="bi bi-box-arrow-left mb-3" viewBox="0 1.5 16 16">
+                <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+            </svg>
+        </a>
+        @*Switches info based on workout amount*@
+        @if (!Model.Any())
+        {
+            <h1 style="color: white">There are noe users</h1>
+        }
+        else
+        {
+            <h1 style="color: white">Users:</h1>
+        }
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="col-lg-6 mt-3">
+        <input type="text" id="exerciseSearch" placeholder="Search for user emails" class="form-control" style="font-size: 1.5rem;"/>
+    </div>
+</div>
+
+<div class="row">
+    
+    <div class="col-lg-8 workoutList m-auto">
+
+        @foreach (var user in Model.OrderBy(e => e.User.Email))
+        {
+            <div class="exerciseContainer" data-search="@user.User.Email">
+                <div class="card-body justify-content-between align-items-center d-flex workoutListItem">
+                    <div class="col-7 col-md-8 d-flex" style="overflow-wrap: anywhere;">
+                        <h5 class="card-title text-white scaleDownHardest">
+                            
+                            @user.User.Email
+
+                            @*If user is admin or superadmin, show star*@
+                            <svg data-admin="@user.IsAdmin" display="none" xmlns="http://www.w3.org/2000/svg" width="0.8rem" height="0.8rem" fill="white" class="bi bi-star-fill adminStar" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            @* SuperAdmin gets two stars *@
+                            <svg data-super-admin="@user.IsSuperAdmin" display="none" xmlns="http://www.w3.org/2000/svg" width="0.8rem" height="0.8rem" fill="white" class="bi bi-star-fill superAdminStar" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+
+                            @* Ban symbol on users who are banned *@
+                            <svg data-is-banned="@user.IsBanned" display="none" xmlns="http://www.w3.org/2000/svg" width="1.3rem" height="1.2rem" fill="white" class="bi bi-ban banned-symbol" viewBox="0 0 16 16">
+                                <path d="M15 8a6.973 6.973 0 0 0-1.71-4.584l-9.874 9.875A7 7 0 0 0 15 8ZM2.71 12.584l9.874-9.875a7 7 0 0 0-9.874 9.874ZM16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Z"/>
+                            </svg>
+                        </h5>
+                    </div>
+
+
+                    @* Only shows if it is not the same user as the one logged in *@
+                    @if (user.User.Id != User.FindFirstValue(ClaimTypes.NameIdentifier))
+                    {
+                        <div class="links d-flex col-3 justify-content-end gap-1">
+                            @*Performs the edit action in the controller*@
+                            @if (User.IsInRole("Admin"))
+                            {
+                                if (user.IsBanned)
+                                {
+                                    <button class="btn btn-danger ban-action-button" data-user-id="@user.User.Id" data-is-banned="@user.IsBanned">
+                                        Unban
+                                    </button>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-danger ban-action-button" data-user-id="@user.User.Id" data-is-banned="@user.IsBanned">
+                                        Ban
+                                    </button>
+                                }
+                            }
+
+                            @if (User.IsInRole("SuperAdmin"))
+                            {
+                                if (user.IsAdmin)
+                                {
+                                    <button class="btn btn-primary admin-action-button" data-user-id="@user.User.Id" data-is-admin="@user.IsAdmin">
+                                        Remove Admin
+                                    </button>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-primary admin-action-button" data-user-id="@user.User.Id" data-is-admin="@user.IsAdmin">
+                                        Make Admin
+                                    </button>
+                                }
+
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-primary disabled mx-auto"> You </button>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@*Modal for showing exercise gif*@
+<div id="modal1" class="modal">
+    <img class="modal-content" id="img01">
+</div>

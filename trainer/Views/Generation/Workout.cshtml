@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Generate Workout";
+    Layout = "_Layout";
+}
+
+@*Shows error message if workout generation failed*@
+@if(TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+
+<div class="row col-md-4 justify-content-center align-items-center m-auto mt-4">
+    <div class="d-flex align-items-center justify-content-center gap-2">
+        <form asp-controller="Trainer" asp-action="Index">
+            <button type="submit" class="d-flex " style="background-color: transparent; border: none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="white" class="bi bi-box-arrow-left" viewBox="0 1.5 16 16">
+                    <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                    <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                </svg>
+            </button>
+        </form>
+    
+        <h2 class="text-white scaleDownSoft">Generate Workout</h2>
+    
+    </div>
+    <form asp-action="workoutGenerator" asp-controller="Generation" method="post" id="workoutGeneratorForm">
+        <div class="d-flex gap-2 dropdown justify-content-center" style="margin-top: 1rem;">
+            
+            <select class="dropdown-toggle col-10" id="generatorType" name="generatorType" required style="font-size: 1.5rem; height: 4rem;">>
+                <option value="" selected disabled>Type</option>
+                <option value="chest">Push</option>
+                <option value="back">Pull</option>
+                <option value="legs">Legs</option>
+                <option value="chest">Chest</option>
+                <option value="Back">Back</option>
+                <option value="triceps">Triceps</option>
+                <option value="biceps">Biceps</option>
+                <option value="shoulders">Shoulders</option>
+                <option value="upper body">Upper Body</option>
+                <option value="full body">Full Body</option>
+            </select>
+        </div>
+        <div class=" d-flex gap-2 dropdown justify-content-center" style="margin-top: 1rem;">
+
+            <select class="dropdown-toggle col-10" id="generatorGym" name="generatorGym" required style="font-size: 1.5rem; height: 4rem;">
+                <option value="" selected disabled>Requires Gym</option>
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+            
+        </div>
+        <div class="d-flex gap-2 dropdown justify-content-center" style="margin-top: 1rem;">
+            
+            <select class="dropdown-toggle col-10" id="generatorSkill" name="generatorSkill" required style="font-size: 1.5rem; height: 4rem;">>
+                <option value="" selected disabled>Experience</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="experienced">Experienced</option>
+            </select>
+            
+        </div>
+
+        <div class="d-flex gap-2 dropdown justify-content-center">
+            <input type="submit" id="generateWorkout" class="btn btn-primary col-10" style="margin-top: 1rem; font-size: 1.5rem;" value="Generate"/>
+        </div>
+    </form>
+</div>
+
+<div class="loadingModal m-auto justify-content-center">
+    <h3>
+        <span class="let1">l</span>
+        <span class="let2">o</span>
+        <span class="let3">a</span>
+        <span class="let4">d</span>
+        <span class="let5">i</span>
+        <span class="let6">n</span>
+        <span class="let7">g</span>
+    </h3>
+</div>
